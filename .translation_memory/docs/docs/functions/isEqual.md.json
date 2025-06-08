@@ -1,0 +1,142 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/isEqual.md",
+  "source_file_content_hash": "58457c8fb47ae5963984760531c6e01cd36895b8fe3a62455e499b4bec02dab3",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: isEqual()\n---",
+      "source_content_hash": "32ee1992ea8bf3a1341b30d9927959b49e6aafb92099b5bbecc4daab9af0035f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `isEqual`",
+      "source_content_hash": "710c213e62e2c0dc4e8b6872188fca9a38d32f46531d7e3a7128adbae91b0458",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `isEqual`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a boolean, `false` if the first date is after the second date.",
+      "source_content_hash": "45d4496461978098d23959225d0daf715ab3ca92850a61d3afba4546063620e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回布尔值，若第一个日期晚于第二个日期则返回`false`。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { isEqual } from 'easy-dates'\n\nisEqual(date, dateToCompare)\n```",
+      "source_content_hash": "1703074ef1ccea414ab5f3f09ad9a167e53969645af61086232b480756153498",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "60e4ab9d",
+      "source_content": "| prop            | type   | required | default |\n|-----------------|--------|----------|---------|\n| `date`          | `date` | yes      | n/a     |\n| `dateToCompare` | `date` | yes      | n/a     |",
+      "source_content_hash": "c1eb68d00bc9bf7c09d2da3129fec27a5b8c0c8de7788cd9402360cbd3449582",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_60e4ab9d"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nisEqual(new Date('2022-01-01'), new Date('2022-01-01')) // true\n```",
+      "source_content_hash": "5115179a40bd80b686bc420fbec2e5745e87cf0b2db529f4faf1eec4ee2a60db",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nisEqual(new Date(Date.now()), new Date(Date.now())) // true\n```",
+      "source_content_hash": "9f2afaeb43a45be32b167add4172757c5b9d84cc6d0118dd955d2ee225e4ed9a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```javascript\nisEqual(new Date('2022-01-01'), new Date('2022-01-02')) // false\n```",
+      "source_content_hash": "e47e038d1768ac94d471ee828cfd5c1880486ea2a5ed85585a6354895b327220",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    },
+    {
+      "segment_id": "6543a19e",
+      "source_content": "```javascript\nisEqual(new Date('2022-01-01')) // false\n```",
+      "source_content_hash": "745e5895a8e8c480b76bfa25ea52543271374b5f1e5128faff321bdc35c02e72",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6543a19e"
+      }
+    },
+    {
+      "segment_id": "4dd51304",
+      "source_content": "```javascript\nisEqual('2022-01-02') // false\n```",
+      "source_content_hash": "624d3b4e299e991467cf0dd3937a26bc5c9199b54f692bd0981e19a358dc84c6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4dd51304"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/isEqual.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.579778+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "58457c8fb47ae5963984760531c6e01cd36895b8fe3a62455e499b4bec02dab3"
+  }
+}

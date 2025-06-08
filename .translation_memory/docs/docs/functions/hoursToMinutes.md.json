@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/hoursToMinutes.md",
+  "source_file_content_hash": "b78a88b52ac9b234afbba7f453601374d75e154d9bb21199a9c762616bb96984",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: 'hoursToMinutes()'\n---",
+      "source_content_hash": "cdc8675c9d29b681826d9f33e350db3b98b24b3a6d5e4451f3db3e5811074aca",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `hoursToMinutes()`",
+      "source_content_hash": "ab569ff4f5e30771fedba1ef0b22f0dc77ea1d54319747a96ea22a8bec948bb1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `hoursToMinutes()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of minutes in the specified number of hours.",
+      "source_content_hash": "d72e4059300644acb1844dd0a66a164e07edaf31a8ba14057bd42a4c7dffe0b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回指定小时数对应的分钟数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "### Usage",
+      "source_content_hash": "7a5b2d87044217ebeda4e071a80585106bae705217da72a3ec329261002e16ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { hoursToMinutes } from 'easy-dates';\n\nhoursToMinutes(hours)\n```",
+      "source_content_hash": "6f0c8191ba16fc75a81e09beb9493ea028f4477471d817b9ffd21f957f72bc88",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "### Prop types",
+      "source_content_hash": "3faf7daaf244b7d2ea449e73b8ab17989e6a1dcc15633103c2add1011ffe4dc8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop    | type     | required | default |\n|---------|----------|----------|---------|\n| `hours` | `number` | yes      | n/a     |",
+      "source_content_hash": "19744754f86e93b629524b8322a477f767ecf551e4499c77f4ad6ce02031f93d",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "### Examples",
+      "source_content_hash": "867cdb3f99fdd95a8de7b853c784c665d03b3d7a5595ff26714f56e203fb4a81",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nhoursToMinutes(1) // 60\n```",
+      "source_content_hash": "f99a56b7407debfe6d73327084c2f3477fb2e4f7b267b5b3d46542c8f59a8d87",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nhoursToMinutes(2) // 120\n```",
+      "source_content_hash": "7add5fc320d6d706509af9cf6eba8b0bb9685b0741102d5d592af63890a83c0c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/hoursToMinutes.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.568276+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b78a88b52ac9b234afbba7f453601374d75e154d9bb21199a9c762616bb96984"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getMonthIndex.md",
+  "source_file_content_hash": "ffb995913c2175eba80db559ff368f815b16d81ae26609dcc51e538645c4a45f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"getMonthIndex()\"\n---",
+      "source_content_hash": "5563a9dfe05ac08cc3ee659abf36e1f138bef356599029aae5468f5a13e0ddd5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getMonthIndex()`",
+      "source_content_hash": "dbd9162892773fc7b9abb7e42f28247eb501f8d4bd40d6d227050cc9a63488ca",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getMonthIndex()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the index of the current month. Note that month indexes start at 0.",
+      "source_content_hash": "e71cb5a03b76bc487a1dc35c4275d798e0191a61b4d081c5a083c7dcf7ecbdcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回当前月份的索引值。请注意月份索引从0开始计数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { getMonthIndex } from 'easy-dates';\n\ngetMonthIndex(monthName)\n```",
+      "source_content_hash": "0f1c05429a8ce348b365fe10aff8653444f42471a6bc82af87c656ea6645484e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "60e4ab9d",
+      "source_content": "| prop        | type   | required | default |\n|-------------|--------|----------|---------|\n| `monthName` | string | no       | current |",
+      "source_content_hash": "5bebd8a6f2d7306e8907a09b82db636ea190b0d266d004ca1375fe4bcfe3a96e",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_60e4ab9d"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "cbbebf8e",
+      "source_content": "```javascript title=\"get the current month (March)\"\ngetMonthIndex() // 2\n// or\ngetMonthIndex('current') // 2\n```",
+      "source_content_hash": "dc1132970cdb078624020cbbd38bf20e4cf29d8f50426ee82bb4604a4db5949c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cbbebf8e"
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```javascript title=\"get a specific month by name\"\ngetMonthIndex('April') // 3\n// or\ngetMonthIndex('april') // 3\n```",
+      "source_content_hash": "0395bf974fffce406090bc4160c902bc3278b9c9c414708af93bba4f9e0878cb",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    },
+    {
+      "segment_id": "a2110253",
+      "source_content": "```javascript title=\"get a specific month by short name\"\ngetMonthIndex('Apr') // 3\n// or\ngetMonthIndex('apr') // 3\n```",
+      "source_content_hash": "a2d5d89902f25afa9df997a49ce195c41f575a964bdd647d095711d034bef131",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a2110253"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getMonthIndex.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.576082+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ffb995913c2175eba80db559ff368f815b16d81ae26609dcc51e538645c4a45f"
+  }
+}

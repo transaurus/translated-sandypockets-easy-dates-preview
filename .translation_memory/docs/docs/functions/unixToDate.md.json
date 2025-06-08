@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/unixToDate.md",
+  "source_file_content_hash": "4bb40f87e60519ea117beaa9fdcdb556de30213802b35c5ebcce2f69c03cba82",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: 'unixToDate()'\n---",
+      "source_content_hash": "4280229439b9f6ccae25a0b8965c6e6aa92729c945f2946faf7d050b4722c5a2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `unixToDate()`",
+      "source_content_hash": "1debc03ec45ba92f092e614dc9e29af45b3f4f8f98d37882f9bab3959814b2e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `unixToDate()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a JavaScript Date object when given a Unix timestamp. Optionally include a locale to have the data object returned in a particular locale.",
+      "source_content_hash": "32fa4eea168a95fa23c9da6170feedc8fa4849eb43f8c717ec0e1e3feb293dfe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "给定Unix时间戳，返回对应的JavaScript Date对象。可选传入区域设置参数以返回特定区域格式的日期对象。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { unixToDate } from 'easy-dates'\n\nunixToDate(unixTimeStamp, locale)\n```",
+      "source_content_hash": "1c98e3fd48c48a7f2f2c5429121999b842cb8e6198b8dfa3aa4ddcb1ebd9944a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop            | type     | required | default |\n|-----------------|----------|----------|---------|\n| `unixTimeStamp` | `number` | yes      | `null`  |\n| `locale`        | `string` | no       | `null`  |",
+      "source_content_hash": "19f9a1c4edbf9d7e178f0e529149e9e3703a607eb471fdc3df0cdac62b7760aa",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "```javascript title=\"returns an object\"\nunixToDate(1648078332) // Wed Mar 23 2022 19:32:12 GMT-0400 (Eastern Daylight Time)\n```",
+      "source_content_hash": "69ca38f4b2083d4336e0cf83ea7ffb7ae10d4ab7706f142bf8b23e26179aa27c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```javascript title=\"returns a string\"\nunixToDate(1648078332, 'en-CA') // 2022-03-23, 7:32:12 p.m.\n```",
+      "source_content_hash": "03fb9395f9f8cfa4f086ad833c1da30027b554dffbd78d9f9b5da8806eb53287",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/unixToDate.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.575086+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4bb40f87e60519ea117beaa9fdcdb556de30213802b35c5ebcce2f69c03cba82"
+  }
+}

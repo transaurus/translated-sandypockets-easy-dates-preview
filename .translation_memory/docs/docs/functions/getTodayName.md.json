@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getTodayName.md",
+  "source_file_content_hash": "6f9d8c61730b96072337ec6c389422fd92efc9238734d8df605577ac75ab6cbf",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"getTodayName()\"\n---",
+      "source_content_hash": "10e3baa485d90a7c4b5877182e8d4fa1c4834f97ffc4816fac1f6aa451e734d2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getTodayName()`",
+      "source_content_hash": "c7278da89ae6eaad58e1bbe48f2e0f4a0df975ca026927b49c122a7d8f4c3748",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getTodayName()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the name of today's day.",
+      "source_content_hash": "f28a8fb8f9b076a427d557c0c65dd0c27f2dd6514fe99144efa0d9ec98efeb3e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回当天星期名称。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { getTodayName } from 'easy-dates';\n\ngetTodayName() // Friday\n```",
+      "source_content_hash": "fe62e5937c0a8419113adb0076f23306e7d98e8d788ffb8d453b26e7d0d4133f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "This function does not take in any props.",
+      "source_content_hash": "7e2eb1613d1f482585094bd49efbaf64bfb4392f2f0ae3a50fbe8a36209c0855",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该函数无需传入任何属性。"
+      }
+    },
+    {
+      "segment_id": "3be30365",
+      "source_content": "| prop | type | required | default |\n|------|------|----------|---------|\n| n/a  | n/a  | n/a      | n/a     |",
+      "source_content_hash": "defba370d43936e9bdd7295df8188e4f9d9f87aeac5068a59bff7f066cbf19f7",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3be30365"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getTodayName.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.570544+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6f9d8c61730b96072337ec6c389422fd92efc9238734d8df605577ac75ab6cbf"
+  }
+}

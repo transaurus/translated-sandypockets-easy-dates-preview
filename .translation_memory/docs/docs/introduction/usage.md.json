@@ -1,0 +1,152 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/introduction/usage.md",
+  "source_file_content_hash": "0f4ec268d0fde02506cec26cba5fddd6200c7c23ff91b937c28f9242c2b48963",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 3\n---",
+      "source_content_hash": "57430a289358d8e38d7464d7df5ab948274d7e83ff708b215f37775a5a384353",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# Usage",
+      "source_content_hash": "55097ae298570638e99725a218a3638d664b3ccd1c84e9673b1a02ef7cc353f9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 使用方法"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "After installing `easy-dates`, using it is as simple as importing (or requiring) the function at the top of your project or component file.",
+      "source_content_hash": "0725b02cb0486d74717e05297167dce0d62c033bb92da8bb420180c19e75d9bf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "安装 `easy-dates` 后，只需在项目或组件文件顶部导入（或 require）相应函数即可开始使用。"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "## ES Modules",
+      "source_content_hash": "99a8c73084757b0750b2851a52c88bcf7541c61bcad45569df6a5f96a3c8a584",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ES 模块"
+      }
+    },
+    {
+      "segment_id": "71b63116",
+      "source_content": "```javascript\nimport { dateNow } from 'easy-dates';\n```",
+      "source_content_hash": "94178dfd5cc89026ef3b54c289def259d765aaf996121974060666a96732f556",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71b63116"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Then you can use it normally, like you would any other function. Here's a React.js example.",
+      "source_content_hash": "3b918f5297931fa694e351de2e5e1114a15c0186e3021b2950cbb4e82df8a727",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后您可以像使用其他函数一样正常调用它。以下是一个 React.js 示例。"
+      }
+    },
+    {
+      "segment_id": "41ad46a6",
+      "source_content": "```jsx title=\"src/components/MyComponent.jsx\"\nimport React from 'react';\nimport { dateNow } from \"easy-dates\";\n\nfunction MyComponent() {\n  return (\n    <div>\n      <p>{dateNow('en-CA')}</p>\n    </div>\n  )\n}\n```",
+      "source_content_hash": "ec0ce839232eafb8689ee56ebb99bc921e38c21939fbdac273bd2728a19541ce",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41ad46a6"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Check out a live ESM demo of this function, and others on StackBlitz.",
+      "source_content_hash": "dcb1b71854ea4101bf29390be45cc146a9e768307a1472d3782d6c9ffead6248",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以在 StackBlitz 上查看该函数及其他功能的 ESM 实时演示。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "[![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)",
+      "source_content_hash": "4e226e0a6eac33a1e04047d88ece474f8ec65b9a875b4ae998eed823ce4af478",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![在 StackBlitz 中打开 easy-dates 演示](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "## CommonJS",
+      "source_content_hash": "8979ffa3a3d8903188fafb17fa928c3e89c7d20c7d6b0db21b92499e968eab33",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## CommonJS"
+      }
+    },
+    {
+      "segment_id": "a2110253",
+      "source_content": "```javascript title=\"index.js\"\nconst { dateNow } = require('easy-dates');\n\nconst todaysDate = dateNow('en-CA');\n\nconsole.log(todaysDate);\n```",
+      "source_content_hash": "588e30ff8cdc69747bd6f37c6432d0a488271aa41e05e0b719c56de9ae59cb89",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a2110253"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "In the example above, the `dateNow()` function takes in a single argument (the `en-CA` locale), and returns the current date, in the specified locale. In the example, the return value would look something like `2022-03-17, 11:50:09 p.m.`",
+      "source_content_hash": "5cb0eef63b47c267f916348fc21695b5086437a5842bf7af70754eb42c29fd0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "上例中，`dateNow()` 函数接收一个参数（`en-CA` 区域设置），并返回指定区域设置的当前日期。示例中的返回值可能类似于 `2022-03-17, 11:50:09 p.m.`"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Check out a live CommonJS demo of this function, and others on StackBlitz below.",
+      "source_content_hash": "84969c25a3ce31498aa9dbd8058086f06090797c4a6b32d6f018952f01813869",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以在下方 StackBlitz 中查看该函数及其他功能的 CommonJS 实时演示。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "[![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js)",
+      "source_content_hash": "f1c6c11bd0498f199ec56cea0d4ffa4aeb64d2b10499fb88e3b31f71132cac72",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![在 StackBlitz 中打开 easy-dates 演示](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/introduction/usage.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.582348+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0f4ec268d0fde02506cec26cba5fddd6200c7c23ff91b937c28f9242c2b48963"
+  }
+}

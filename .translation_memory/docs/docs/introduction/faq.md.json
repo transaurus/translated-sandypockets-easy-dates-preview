@@ -1,0 +1,172 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/introduction/faq.md",
+  "source_file_content_hash": "f9fedb63861f5e7adf540449dbd735bb77cd2bdafa99da701d73e154bfc8f88e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 5\nsidebar_label: \"FAQ\"\n---",
+      "source_content_hash": "e7dce593ac088760151e1497c05dd8680a5a04a73c0bc2912cceac98806dc037",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "# Frequently Asked Questions",
+      "source_content_hash": "173e7301fce7003b63848d8868924054f74262a6f519e374f7823ce4970d4be6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 常见问题"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Does `easy-dates` work with JavaScript modules?",
+      "source_content_hash": "89df2e96a5d93fee95a20944f02e52315ded3187182385a0c24b7b2d65c5fc15",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## `easy-dates` 是否支持 JavaScript 模块？"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Yes. Import it like you would any other package. View the [React.js demo on StackBlitz](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js) for a live example.",
+      "source_content_hash": "d2faa562328db2106997991db7bb312ecea5d254364e3a805ae171b6c68e3dfa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持。您可以像导入其他包一样导入它。查看 [StackBlitz 上的 React.js 演示](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js) 获取实时示例。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Does `easy-dates` work with CommonJS?",
+      "source_content_hash": "8196b8082eb25b636d21d03dcdcdb97aff34dfb8b595f4e190fc6dd2e36bcc41",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## `easy-dates` 是否支持 CommonJS？"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Yes. Require it like you would any other package. View the [Node.js demo on StackBlitz](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js) for a live example.",
+      "source_content_hash": "3e695dfc43392fe39cff8966755e7e62c03e87b68f7465bcc2254c9bd4e2684f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持。您可以像引入其他包一样通过 require 引入它。查看 [StackBlitz 上的 Node.js 演示](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js) 获取实时示例。"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## This function isn't behaving as I expected. What can I do?",
+      "source_content_hash": "820b251960f0da64ff77737233fea9fd4b9ec711f3eea660cf072c04f70ed5fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 某个函数的行为与预期不符，我该怎么办？"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Open an issue on GitHub [here](https://github.com/sandypockets/easy-dates/issues).",
+      "source_content_hash": "cc138c9bf33745837026d3021a9acba4f902f7f5add5852c615c3195cf634a1e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请在 GitHub 上提交问题 [此处](https://github.com/sandypockets/easy-dates/issues)。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## How can I contribute to `easy-dates`?",
+      "source_content_hash": "482a0e3dce607cdb8fdecdb9f1365d885030cf8432fb68870ad178314f2c7a2b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何为 `easy-dates` 贡献代码？"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Please read the [guide on contributing](../contributing), and submit an issue or pull request.",
+      "source_content_hash": "7097bdf432329ff03af0fb00695f7ebd6b3a430624a1bf846cdde1a47848410c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请阅读 [贡献指南](../contributing)，并提交 issue 或 pull request。"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Is `easy-dates` tested?",
+      "source_content_hash": "2443e890b7428fe7398085333a87f846376c29d7875fc56f70e7418c9b9f245e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## `easy-dates` 是否经过测试？"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Yes. `easy-dates` uses Jest for testing, and maintains +95% statement, and 100% functions test coverage at all times.",
+      "source_content_hash": "bdd60e7b63915712f98f403229259d1d95b45cc463381352c66c21103a92e24d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "是的。`easy-dates` 使用 Jest 进行测试，始终保持 95% 以上的语句覆盖率和 100% 的函数测试覆盖率。"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Does `easy-dates` use TypeScript?",
+      "source_content_hash": "31ea7caf60704319def4d029dd0326d7e510b6ac652fd7006971c856bc78ffc1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## `easy-dates` 使用 TypeScript 吗？"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "No. `easy-dates` uses JavaScript.",
+      "source_content_hash": "9188a78e0174f89b20debd170765e3d37081bc80ced0fa646d9aaf5e653a9162",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "不使用。`easy-dates` 使用 JavaScript 开发。"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Does `easy-dates` have any dependencies?",
+      "source_content_hash": "795a97130d84e6589d69e136b2d8a23894a99340b7f2558f70c737137074d3fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## `easy-dates` 是否有任何依赖项？"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "No, the library is zero-dependency, and intended to be as small as possible.",
+      "source_content_hash": "e45b1892a5496e439ac3342a2ee6aa03d7dc0bb3fe43118a238cab31a678a089",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "没有，该库为零依赖设计，旨在保持尽可能小的体积。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/introduction/faq.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.583028+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f9fedb63861f5e7adf540449dbd735bb77cd2bdafa99da701d73e154bfc8f88e"
+  }
+}

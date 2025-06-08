@@ -1,0 +1,142 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/introduction/playground.md",
+  "source_file_content_hash": "7b52985e7bc4303e9a5467cfe81413f5b18797498b52fb8fd052ff6bb8267c10",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 4\n---",
+      "source_content_hash": "e93552de73713fd3d4c67121db57ba65cc2e8e129d1829ed5f8a7888cea6601e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# Playground",
+      "source_content_hash": "17596d4f9d7bd483c3476eec73d4b585cbe9a5c07bad3ae8d4262f2139a1e467",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 在线演练场"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Need to play around with `easy-dates` in a live environment before deciding if it's the right fit? No problem.",
+      "source_content_hash": "6a06f8c20c0b43dbb330c0366ef00d8336d694ffc88579903512be1f023837ee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "需要在真实环境中试用`easy-dates`以判断是否适合您的项目？完全没问题。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Whether you're looking for examples using `require` with CommonJS, `import` statements with ESM, or script tags in an HTML document, we've got a live demo ready to go.",
+      "source_content_hash": "5cd2587da45ec3db8cb91dfe2be5466f8e70ed09f868c9211c69682a28517152",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "无论您想通过CommonJS的`require`、ESM的`import`语句，还是HTML文档中的script标签来使用，我们都准备了实时演示环境。"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## React.js",
+      "source_content_hash": "18b0f98d43e6d9792d2f0d5e2ad970befab2f735c0dc06877e4873eee1657056",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## React.js"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "This demo uses an `import` statement, Ecma Script Modules",
+      "source_content_hash": "ddc9bbac8387090a26de81b39ab6f69cc3ce4a991c2c0a5aad35832660b96401",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该演示使用ESM模块的`import`语法"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "[![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)",
+      "source_content_hash": "4e226e0a6eac33a1e04047d88ece474f8ec65b9a875b4ae998eed823ce4af478",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![在StackBlitz中打开easy-dates演示](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-demo?file=src/App.js)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Node.js",
+      "source_content_hash": "8e1a6cba1feb7a183fdc7eb79790f1aec12516fc19212e379827382a9f47289f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Node.js"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "This demo uses a `require` statement, CommonJS",
+      "source_content_hash": "72b616bc49528becbb0f97494a469c716becd92fb3dd93b6b3cc2e21618d852b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该演示使用CommonJS的`require`语法"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "[![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js)",
+      "source_content_hash": "f1c6c11bd0498f199ec56cea0d4ffa4aeb64d2b10499fb88e3b31f71132cac72",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![在StackBlitz中打开easy-dates演示](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/easy-dates-nodejs?file=index.js)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## HTML and Vanilla JS",
+      "source_content_hash": "25e586b5d4406b9f4e74321c270788f17b48a470107f8b8ab81117d4ee8404fd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## HTML与原生JS"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "This demo uses a `<script>` tag, HTML",
+      "source_content_hash": "4c17a27a566d05044bbfce8f8c1f059d1c17a41ad87e5b04add210366635f0e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该演示使用HTML的`<script>`标签"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "[![Open easy-dates demo in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/web-platform-huglhq?file=index.html)",
+      "source_content_hash": "9a367a636e6b065957128e2c469797c7623e7e234f9a5baea66e58112c72e27a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![在StackBlitz中打开easy-dates演示](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/web-platform-huglhq?file=index.html)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/introduction/playground.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.582581+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7b52985e7bc4303e9a5467cfe81413f5b18797498b52fb8fd052ff6bb8267c10"
+  }
+}

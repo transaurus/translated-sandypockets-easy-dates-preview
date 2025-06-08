@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/intro.md",
+  "source_file_content_hash": "e2007e98c7a1912774b4ee3c8394e89e07292290bccf1912898a82bc7273c1a0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 1\n---",
+      "source_content_hash": "92a21a112978c590263ada3554195d9905c8c585e619dccd5f0a4cf518a7076f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# Welcome",
+      "source_content_hash": "cb77c47f1ba035cb9fb473535e04389c996c9f09fc09f8e402c9cb41208c7b20",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 欢迎使用"
+      }
+    },
+    {
+      "segment_id": "8c98994c",
+      "source_content": ":::caution\n`easy-dates` is currently under heavy development, working towards a 1.0.0 release. Until then, it's possible (though I'll do my best to avoid it!) that there could be some breaking changes. For that reason, it is not recommended to use `easy-dates` in production _yet_.\n:::",
+      "source_content_hash": "68188fa2b989f7a9aad2ee7512f4766ccdb68b3e13a43ca8e5bad4cdab95b193",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution\n`easy-dates` 目前正处于密集开发阶段，正在为 1.0.0 版本发布做准备。在此之前，虽然我们会尽量避免，但仍可能存在一些破坏性变更。因此，目前**不建议**在生产环境中使用 `easy-dates`。\n:::"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Thanks for checking out `easy-dates`!",
+      "source_content_hash": "5fe47a1222c27021558ef483951c146a363908d4fe39d8a1c718eec9660fc02d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "感谢您关注 `easy-dates`！"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "If you've never used `easy-dates` before, then have a look at the [Getting started](introduction) section. It covers everything from adding the package to using it in a project. Otherwise, if you know what you're looking for, then take a look through the [Functions](functions) tab for full docs on everything.",
+      "source_content_hash": "bbf45e6f9cb8c4e8f99776dba301ffae55df06b99a09b91ca1c3c7f565011358",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您是初次使用 `easy-dates`，请查阅[入门指南](introduction)章节，其中涵盖了从安装到项目使用的完整流程。若您已明确需求，可直接浏览[函数列表](functions)选项卡查看完整文档。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/intro.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.579128+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e2007e98c7a1912774b4ee3c8394e89e07292290bccf1912898a82bc7273c1a0"
+  }
+}

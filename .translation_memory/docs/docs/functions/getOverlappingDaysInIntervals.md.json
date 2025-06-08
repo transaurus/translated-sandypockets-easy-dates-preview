@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getOverlappingDaysInIntervals.md",
+  "source_file_content_hash": "5a2a564999bae4edcc0b72074f38ad3b0cbcfbe745a3dd6b6f69ef68edda0a94",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: getOverlappingDaysInIntervals()\n---",
+      "source_content_hash": "a9442ff17da796b9a05e3a025c07a0e7b7162b58cd81d249e9f1ac43da3246ac",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getOverlappingDaysInIntervals()`",
+      "source_content_hash": "dea1764b3fdfd7dc03099401f7fb2b44d588eacfcb6f5c6ec4c77e8072891536",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getOverlappingDaysInIntervals()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns an array of dates representing the days that overlap between two date ranges.",
+      "source_content_hash": "e1bcfccfd70ccee50419c13094cc0a4afa7c668bab443b3ed7767cf1a6e17053",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回一个日期数组，表示两个日期范围之间的重叠天数。"
+      }
+    },
+    {
+      "segment_id": "a239c14b",
+      "source_content": ":::tip\nThis function returns an array of `Date` objects. If you need something like seconds (Unix timestamp) or milliseconds (JavaScript timestamp), then you can use the [`dateToUnix()`](dateToUnix) or [`dateToMilliseconds()`](dateToMilliseconds) functions.\n:::",
+      "source_content_hash": "c9809a62eb148b049acaa9f8f92161f69481426c2cf7dccc56d8317a12029953",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip\n此函数返回一个 `Date` 对象数组。如果需要秒数（Unix 时间戳）或毫秒数（JavaScript 时间戳），可以使用 [`dateToUnix()`](dateToUnix) 或 [`dateToMilliseconds()`](dateToMilliseconds) 函数进行转换。\n:::"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "b9c7a144",
+      "source_content": "```javascript\nimport { getOverlappingDaysInIntervals } from 'easy-dates';\n\ngetOverlappingDaysInIntervals(rangeOne, rangeTwo);\n```",
+      "source_content_hash": "df8c032dd2324acea2fc5de5d38b3c7b968e50952f79bc0fd8025d48813dac8a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b9c7a144"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "3dd19309",
+      "source_content": "| prop       | type    | required | default   |\n|------------|---------|----------|-----------|\n| `rangeOne` | `array` | yes      | `null`    |\n| `rangeTwo` | `array` | yes      | `null`    |",
+      "source_content_hash": "ff5f7d9633871d09d0207d7d3830f85ad97e02ec6abb584b739f7c78fef20bb7",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3dd19309"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\ngetOverlappingDaysInIntervals(\n  [new Date(2022, 0, 1), new Date(2022, 0, 10)],\n  [new Date(2022, 0, 2), new Date(2022, 0, 11)]\n)\n\n// Result\n// [\n//   new Date(2022, 0, 2),\n//   new Date(2022, 0, 3),\n//   new Date(2022, 0, 4),\n//   new Date(2022, 0, 5),\n//   new Date(2022, 0, 6),\n//   new Date(2022, 0, 7),\n//   new Date(2022, 0, 8),\n//   new Date(2022, 0, 9),\n//   new Date(2022, 0, 10)\n// ]\n```",
+      "source_content_hash": "e9e98067ce99cf0869576ec8d7a73df380904e087266ee30ccdc66b46f1a2d0f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "4ec2920d",
+      "source_content": "```javascript\ngetOverlappingDaysInIntervals(\n  [\"2022, 0, 1\", \"2022, 0, 10\"],\n  [new Date(2022, 0, 2), new Date(2022, 0, 11)]\n) // Error\n```",
+      "source_content_hash": "9f42ca803c952d48129032fe2346d3726aabf5cfa24a12d87438acf0d0144961",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4ec2920d"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getOverlappingDaysInIntervals.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.581055+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5a2a564999bae4edcc0b72074f38ad3b0cbcfbe745a3dd6b6f69ef68edda0a94"
+  }
+}

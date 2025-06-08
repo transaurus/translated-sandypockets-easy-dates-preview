@@ -1,0 +1,202 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/contributing/code-of-conduct.md",
+  "source_file_content_hash": "97233c29444b6e80e8b42bec9393af9c4778a9b0cf318b58f4d93da0a02ad479",
+  "segments": [
+    {
+      "segment_id": "76e4a56a",
+      "source_content": "# Code of Conduct",
+      "source_content_hash": "2b0bc35e6b0145c3aad49156286f109048eb2d4b40255a261656167421d52f30",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 行为准则"
+      }
+    },
+    {
+      "segment_id": "adbc947a",
+      "source_content": "## Our Pledge",
+      "source_content_hash": "a19a202bc8892bc7ce36148558581d6aca5315e389481a8d931bc2e7b903e0cc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我们的承诺"
+      }
+    },
+    {
+      "segment_id": "e7ec8f99",
+      "source_content": "In the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\neducation, socio-economic status, nationality, personal appearance, race,\nreligion, or sexual identity and orientation.",
+      "source_content_hash": "5c452eeb5bc899244fe207af41d52000fac204ae8a7bee001cc8c144930bd6ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为了营造一个开放且包容的环境，我们作为贡献者和维护者承诺，无论年龄、体型、残障、民族、性别认同与表达、经验水平、教育背景、社会经济地位、国籍、外貌、种族、宗教信仰或性取向如何，都将使参与本项目及社区成为对所有人无骚扰的体验。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Our Standards",
+      "source_content_hash": "b4b0bec8e83dcbda30a9d7254f5b4418ae7e170d45f81f6e6ce5e1a2c3bd609e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我们的标准"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Examples of behavior that contributes to creating a positive environment\ninclude:",
+      "source_content_hash": "01b314730e7a33d1558464f76ed1816a4e70be7e952493892a167c47acff6b6e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "有助于创造积极环境的行为包括："
+      }
+    },
+    {
+      "segment_id": "84758135",
+      "source_content": "* Using welcoming and inclusive language\n* Being respectful of differing viewpoints and experiences\n* Gracefully accepting constructive criticism\n* Focusing on what is best for the community\n* Showing empathy towards other community members",
+      "source_content_hash": "a656c55c6c765329a3181fb1e263b905f47a1295e4d529451d83eaf9f1ac870e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 使用友善包容的语言\n* 尊重不同的观点与经历\n* 优雅接受建设性批评\n* 聚焦于对社区最有利的方面\n* 对其他社区成员展现同理心"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Examples of unacceptable behavior by participants include:",
+      "source_content_hash": "411eeb510bb78e880ba1c76baf9183d4f03870a8f971f7f9631e090c165abca1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "参与者不可接受的行为包括："
+      }
+    },
+    {
+      "segment_id": "44d89370",
+      "source_content": "* The use of sexualized language or imagery and unwelcome sexual attention or\n  advances\n* Trolling, insulting/derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others' private information, such as a physical or electronic\n  address, without explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n  professional setting",
+      "source_content_hash": "bf3b43617966c5d0a55ea6626ad2df287f079c66458d88e2b7b40cd99ad3f05d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 使用性暗示语言/图像及不受欢迎的性关注\n* 挑衅、侮辱/贬损性言论及人身或政治攻击\n* 公开或私下的骚扰行为\n* 未经明确许可擅自发布他人隐私信息（如住址或电子邮箱）\n* 其他在专业场合中被合理认定为不当的行为"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "## Our Responsibilities",
+      "source_content_hash": "25e71a574522409ba0f337d02fa21af35a98819fb9a7abb9ed43ebf731346fba",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我们的责任"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Project maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.",
+      "source_content_hash": "26b92c50a1b206b6807aa0cc9b50c91f5dca459786e27208b3f392c823c2382a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "项目维护者有责任明确可接受行为的标准，并应对任何不可接受行为采取适当且公正的纠正措施。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Project maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.",
+      "source_content_hash": "e1c43cc60ad2ae00d0308c43b40e7b156b2369413dd011659fd02c4d65a1d741",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "项目维护者有权并有责任删除、编辑或拒绝不符合本行为准则的评论、提交、代码、Wiki编辑、问题及其他贡献，或临时/永久封禁存在威胁性、攻击性或有害行为的贡献者。"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Scope",
+      "source_content_hash": "06f13eceae24bd0eb87002e30400999346da1ac5f0f9e44ba02101ab01d1f6a3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 适用范围"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "This Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.",
+      "source_content_hash": "f9c00f58c8ff08b7b9d7124806f95b506574b8da8fcd3da7054bb261ab653b1f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本行为准则适用于项目空间及当个人代表项目或社区的公开场合。代表场景包括使用官方项目邮箱、通过官方社交媒体账号发言或作为指定代表参与线上/线下活动。项目维护者可进一步定义和澄清代表行为的具体范围。"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "## Enforcement",
+      "source_content_hash": "140f2b2db87e1aa52fca2997b9e1b164cfed0621c57c0e3dedb788b1f5464742",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 执行措施"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at hello@sandypockets.dev. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.",
+      "source_content_hash": "abfe6877b669e099b2a70948632cf4640c6dea0a3053709e95aef8718f7ea406",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如遭遇虐待、骚扰或其他不可接受行为，请通过hello@sandypockets.dev联系项目团队。所有投诉都将被及时审查调查，并给出 deemed necessary 的响应。项目团队承诺对举报人信息严格保密。具体执行政策可能会另行公示。"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Project maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.",
+      "source_content_hash": "d274cc641b5c2d4cafd6d752bcc48e4d804e587579fbe5b5e34fb5f50cdc3b5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "未善意遵守或执行本行为准则的项目维护者，可能会面临项目领导层决定的临时或永久性后果。"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "## Attribution",
+      "source_content_hash": "146b6a2899cf38c75c7ec992d9e31981b0ff8303850fcefa986ca6c11267a796",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 致谢"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,\navailable at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html",
+      "source_content_hash": "148a65d2d72d1d0d2a28b407c71d6a04e09d4faa06898696ecd1092ccf85ddc0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本行为准则改编自[贡献者公约][homepage]1.4版，原文参见https://www.contributor-covenant.org/version/1/4/code-of-conduct.html"
+      }
+    },
+    {
+      "segment_id": "3dd52a33",
+      "source_content": "[homepage]: https://www.contributor-covenant.org",
+      "source_content_hash": "63736a950f7c852165143e610d2f829854a49a659a1479b14048390a8cfceaa1",
+      "node_type": "definition",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[homepage]: https://www.contributor-covenant.org"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/contributing/code-of-conduct.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.583624+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "97233c29444b6e80e8b42bec9393af9c4778a9b0cf318b58f4d93da0a02ad479"
+  }
+}

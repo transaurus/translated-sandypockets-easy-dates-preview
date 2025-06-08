@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/dateToUnix.md",
+  "source_file_content_hash": "fed326771e5494ec2e9dea615908f6a2f04ab97b2094c974320789a92a9caf72",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"dateToUnix()\"\n---",
+      "source_content_hash": "72ed04f9ca85afb553a4d10711fb93b6dec752c665fa42e574b99714a6657c29",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `dateToUnix()`",
+      "source_content_hash": "445b8363440fa6133ee5b2600415f8401bf3347a4e37d59c460577e9ad5e4159",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `dateToUnix()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a Unix timestamp from a given date object, string, or milliseconds timestamp.",
+      "source_content_hash": "446bfb6b1edc6732d55212f3488d7280cb6ae39753baedbc85ea964e3b2b5a2f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回给定日期对象、字符串或毫秒时间戳对应的Unix时间戳。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "### Usage",
+      "source_content_hash": "7a5b2d87044217ebeda4e071a80585106bae705217da72a3ec329261002e16ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { dateToUnix } from 'easy-dates';\n\nconst dateObject = new Date(Date.now()) // Sat Mar 19 2022 23:46:03 GMT-0400 (Eastern Daylight Time)\nconst millisecondsDateStamp = new Date(Date.now()).getTime(); // 1647747963147\n\ndateToUnix(dateObject) // 1647747963\ndateToUnix(millisecondsDateStamp) // 1647747963\n```",
+      "source_content_hash": "083e8e7d6827da1bf0127b0ed26692d423aba24117cacc06003a548dfdb2f907",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "### Prop types",
+      "source_content_hash": "3faf7daaf244b7d2ea449e73b8ab17989e6a1dcc15633103c2add1011ffe4dc8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 属性类型"
+      }
+    },
+    {
+      "segment_id": "7ece1a63",
+      "source_content": "| prop   | type  | required | default  |\n|--------|-------|----------|----------|\n| `date` | `any` | yes      | `null`   |",
+      "source_content_hash": "cecd9cec013ec8337cc3bd4b89a88734de24fdab2126fd24864fc3f94641aba8",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7ece1a63"
+      }
+    },
+    {
+      "segment_id": "a2f1eaea",
+      "source_content": ":::info[Using a `string` prop?]\n\n_Does this work to convert a locale date string back to a date or timestamp too?_ It does. But you should try to avoid it. Here's an example.\n\n```javascript title=\"locale string\"\nconst localeDateString = new Date(millisecondsDateStamp).toLocaleString('en-CA') // '2022-03-19, 11:46:03 p.m.'\n\ndateToUnix(localeDateString) // 1647734940\n```\n\nAs you can see, the first two conversions (a date object or milliseconds timestamp) are exact, however converting a locale date string back into a date object or timestamp is not.\n\nSimilar behaviour can be observed when casting an `object` as a `string`.\n\n```javascript title=\"date object as string\"\nconst someDateObject = new Date(Date.now()) // Sun Mar 20 2022 23:21:10 GMT-0400 (Eastern Daylight Time)\n\ndateToUnix(\"Sun Mar 20 2022 23:21:10 GMT-0400 (Eastern Daylight Time)\") // 1647919810\n```\n\n### When are strings ok to use?\nWhen the value of the string is a number.\n\n```javascript\nconst someTimeNumber = new Date(Date.now()).getTime();\n\ndateToUnix(\"1647833600771\") // 1647833600\n```\n:::",
+      "source_content_hash": "32141dc60f66d3e122967df34be0627d2d79a862edf16323aafc999e265f1bb0",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[使用`string`类型参数时]\n\n_是否可以通过本地化日期字符串转换回日期或时间戳？_ 可以。但应尽量避免。示例如下：\n\n```javascript title=\"本地化字符串\"\nconst localeDateString = new Date(millisecondsDateStamp).toLocaleString('en-CA') // '2022-03-19, 11:46:03 p.m.'\n\ndateToUnix(localeDateString) // 1647734940\n```\n\n如您所见，前两种转换（日期对象或毫秒时间戳）是精确的，但将本地化日期字符串转换回日期对象或时间戳则不然。\n\n类似行为也出现在将`object`强制转换为`string`时：\n\n```javascript title=\"日期对象转为字符串\"\nconst someDateObject = new Date(Date.now()) // Sun Mar 20 2022 23:21:10 GMT-0400 (Eastern Daylight Time)\n\ndateToUnix(\"Sun Mar 20 2022 23:21:10 GMT-0400 (Eastern Daylight Time)\") // 1647919810\n```\n\n### 何时可以使用字符串参数？\n当字符串值为数字时：\n\n```javascript\nconst someTimeNumber = new Date(Date.now()).getTime();\n\ndateToUnix(\"1647833600771\") // 1647833600\n```\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/dateToUnix.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.582819+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fed326771e5494ec2e9dea615908f6a2f04ab97b2094c974320789a92a9caf72"
+  }
+}

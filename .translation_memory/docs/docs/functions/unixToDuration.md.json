@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/unixToDuration.md",
+  "source_file_content_hash": "fda3603db1399f716084889bc37705f8d7783feab07809875b025c78c6637539",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"unixToDuration()\"\n---",
+      "source_content_hash": "2ab007a610402d1e1a66ac7be203a6b21fcc2ad7802aab1d35577ef5376bc4e5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `unixToDuration()`",
+      "source_content_hash": "b50cb503ed5481b4c6d0341d0ae0a8d69e1bd2fff2e569eb7c677b7cee26bf15",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `unixToDuration()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Takes in a Unix timestamp, and a measurement type (i.e. minutes), and returns the amount, or duration, in said type.",
+      "source_content_hash": "e4ae14607605b7717b4c83059aeae9540cb95de36d97913a6b49688a8bc6efc9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "接收一个Unix时间戳和计量单位（如分钟），返回该时间戳对应的时间长度值。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 使用方法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { unixToDuration } from 'easy-dates';\n\ngetDuration(unixTimestamp, measure)\n```",
+      "source_content_hash": "b5e01d5188da95e279b66443a6384a72dfc90418b6603320516663d4a575a46e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "60e4ab9d",
+      "source_content": "| prop            | type   | required | default |\n|-----------------|--------|----------|---------|\n| `unixTimestamp` | number | yes      | null    |\n| `measure`       | string | yes      | days    |",
+      "source_content_hash": "67121f1ae5488f67279afeed616221c2ba86755b3c5ea8820e0a87a85d8cef7a",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_60e4ab9d"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nconst firstDate = new Date(\"December 17, 1995 03:24:00\");\nconst secondDate = new Date(\"December 17, 2000 03:24:00\");\n\n// Gets difference between 1995 and 2000 as a Unix timestamp\nconst durationAsUnixTimestamp = getDuration(firstDate, secondDate, \"seconds\");\n\n// Convert the Unix timestamp from seconds into years\nunixToDuration(durationAsUnixTimestamp, \"years\") // 5.019230769230769\n```",
+      "source_content_hash": "94bf2f88e0d5a0b21643d1873aea059e444ee9827609bb9b95c4f678d700bdc2",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a2110253",
+      "source_content": "```javascript title=\"years since January 1st, 1970\"\nconst dateNow = new Date(Date.now())\nunixToDuration(dateNow, \"years\") // 52\n```",
+      "source_content_hash": "38af4e201f84c4d8bd950a6d2a6aaa5b238c6ba260f73054572781c7d8ce76f7",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a2110253"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/unixToDuration.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.576793+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fda3603db1399f716084889bc37705f8d7783feab07809875b025c78c6637539"
+  }
+}

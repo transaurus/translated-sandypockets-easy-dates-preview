@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/introduction/installation.md",
+  "source_file_content_hash": "96e2adaa6a02f864d163db124758112e57531ed96fe70b3d30568bd6d840f726",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 2\n---",
+      "source_content_hash": "6b5a0ead0daa1090c8a38fd0c73528677b05e2e1ac3baca413f4c1cf998fee45",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# Installation",
+      "source_content_hash": "a04bc78224193df7d963bd4b5e40fbc0179b0bfd3e4e3c98c5664dc950890a95",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 安装"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "The `easy-dates` package is available via package managers, or CDNs.",
+      "source_content_hash": "032314b83c8547ef07358b02aa99897dd34dfb4bceb03fb53e5ecc7b7e66d8a7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`easy-dates` 包可通过包管理器或 CDN 获取。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Package managers",
+      "source_content_hash": "5532333bb6e59b19a3a22978af007027a8bf85eee61065d2157a3ced9c67e6b1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 包管理器"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "`easy-dates` is available via Yarn on NPM.",
+      "source_content_hash": "f126699243f0a099120e4f8a80d1e5a0f2ac9b647bfc685dc5673a85533d0483",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`easy-dates` 可通过 Yarn 或 NPM 获取。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "### Yarn",
+      "source_content_hash": "6022c9602399d99ee59acdd5a4f0af93054bf718807a9daaf39e776bac47fc76",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Yarn"
+      }
+    },
+    {
+      "segment_id": "ee201347",
+      "source_content": "```shell\nyarn add easy-dates\n```",
+      "source_content_hash": "2cf6b33a7b94e6e2d08481c1398e66e4bbad3c70d99bcc7ea2daeffb75e26e41",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ee201347"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "### NPM",
+      "source_content_hash": "1df339bc436e1ca6250e69e63b2afee2a2bd90eb657e75485ba822efeca431c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### NPM"
+      }
+    },
+    {
+      "segment_id": "93be3c14",
+      "source_content": "```shell\nnpm install easy-dates\n```",
+      "source_content_hash": "1e600763da12dc3c1f965213fe045a4f417f71b66d36d707314b82decb02ba9b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_93be3c14"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## CDN",
+      "source_content_hash": "72f49b73183f20f5f6c32e55a6bf6b62ba9d4e166425371a7fc1b9e0f10b551f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## CDN"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Prefer to get your code from a script tag? No problem. Below are the latest versions of our CDN links on jsDeliver or UNPKG.",
+      "source_content_hash": "9d1540a43e3bd612f4fe3e6133bacc6055ece7e62833f0e902f174db9f9bb285",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更倾向于通过 script 标签获取代码？没问题。以下是我们在 jsDeliver 和 UNPKG 上的最新 CDN 链接。"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### jsDeliver",
+      "source_content_hash": "33d3d795fec4008ca9fefc24770b06f121ed3e26679d3664d62cdcf4e63b7f1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### jsDeliver"
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```html\n<script src=\"https://cdn.jsdelivr.net/npm/easy-dates@0.23.0/dist/index.js\"></script>\n```",
+      "source_content_hash": "dfacb758396aa0d7daf84139406bca6ce7287c74c5b5c6a45acc6872eb90468c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "f2f30ae8",
+      "source_content": "### UNPKG",
+      "source_content_hash": "867327cab65945e64e6e27ef1257a6c4db33cca6e8a3bb33d33dfa386b33e342",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### UNPKG"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```html\n<script src=\"https:///unpkg.com/easy-dates@0.23.0/dist/index.js\"></script>\n```",
+      "source_content_hash": "8d4b646277eb8c5e321ad84e8515fca368a457dc4b430572f26e63704c343117",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/introduction/installation.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.581485+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "96e2adaa6a02f864d163db124758112e57531ed96fe70b3d30568bd6d840f726"
+  }
+}

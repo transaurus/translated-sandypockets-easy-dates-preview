@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/dateNowUnix.md",
+  "source_file_content_hash": "96c3bbbc82968dc77ee21c436ef1074e84d97d1037297d2da18cc49db8fa9f62",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: dateNowUnix()\n---",
+      "source_content_hash": "f7f08f10329a730d1a065a94f7ee5cd037188e05e6531f4e1b7015cad3cb3077",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `dateNowUnix()`",
+      "source_content_hash": "b9c6e031feec7c4cf07ec573406b75feacf172cbe82e916224fcac2cbaf95eaf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `dateNowUnix()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a number representing the current date and time in Unix time (seconds).",
+      "source_content_hash": "d1f78adc7d94ad54eaad86cb6a445d87fa4a339aa6b640a39d70d2f8fe961902",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回表示当前日期和时间的Unix时间戳（秒数）。"
+      }
+    },
+    {
+      "segment_id": "a239c14b",
+      "source_content": ":::tip\nIf you need the current date in milliseconds (JavaScript timestamp), then use [`secondsToMilliseconds()`](/docs/functions/secondsToMilliseconds) on the result of `dateNowUnix()`.\n:::",
+      "source_content_hash": "e22d3b4fa392c009cd54e1271a0ee440f0a3ad61e4e3a71acdb029e810a7515c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip\n如需获取当前日期的毫秒数（JavaScript时间戳），可对`dateNowUnix()`的结果使用[`secondsToMilliseconds()`](/docs/functions/secondsToMilliseconds)进行转换。\n:::"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "b9c7a144",
+      "source_content": "```javascript\nimport { dateNowUnix } from 'easy-dates';\n\ndateNowUnix();\n```",
+      "source_content_hash": "ec400cc3a5ac7791e2954105b3980a7de80fb2246f08fd9350188e93b87c115e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b9c7a144"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "This function does not take any props.",
+      "source_content_hash": "735f367be1b318573e628b9e2b4e24715c6906b5c0803ce7f091f16c5affb74b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该函数无需传入任何属性。"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "```javascript\ndateNowUnix() // 1648871014\n```",
+      "source_content_hash": "c694137294b3f6fab066fefb4d010a38c0d8112a9a117eac3a6aef8622168891",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/dateNowUnix.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.580623+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "96c3bbbc82968dc77ee21c436ef1074e84d97d1037297d2da18cc49db8fa9f62"
+  }
+}

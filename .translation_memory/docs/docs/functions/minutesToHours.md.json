@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/minutesToHours.md",
+  "source_file_content_hash": "b3565934517855a5f5930ba7ab7bc56380f29941f785c51bc5676f29d4142725",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: minutesToHours()\n---",
+      "source_content_hash": "28a66c314f53f22ce81ad8e4486204c8ddc1b010da3f238bd7d70c05e82e87c7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `minutesToHours()`",
+      "source_content_hash": "f862814963383f358a29c00d7298163d29ad91f7bb65e606debad470cfc19278",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `minutesToHours()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of hours from a given number of minutes.",
+      "source_content_hash": "a767c3f65e97ee21d9685e7177dd6db2ca3bc691ce553665e6172f62dfc649e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将给定的分钟数转换为对应的小时数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { minutesToHours } from 'easy-dates';\n\nminutesToHours(minutes)\n```",
+      "source_content_hash": "975d59c8286f8b0e08e0e136feffa6a7b6359c5f74af79b02e53023564715738",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop      | type     | required | default  |\n|-----------|----------|----------|----------|\n| `minutes` | `number` | yes      | `null`   |",
+      "source_content_hash": "16d20036bef49f6d608083e9aa988f1c95bea951f05e16a8d40cf0a525775944",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nminutesToHours(30); // 0.5\n```",
+      "source_content_hash": "579cc50b50bfde9f28299edc7947bb722c5cbcc2c125a8ae1eb63a898d612bca",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nminutesToHours(60); // 1\n```",
+      "source_content_hash": "aa63961d33f51456319bb13d24f1725188c7de388a0f422a4871eeedb8b9b594",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```javascript\nminutesToHours(\"some string\"); // throw error\n```",
+      "source_content_hash": "8af1dad208bb7857e63aa85a7516bcd10851b649f82b1c27e8dd1e2ef24e79d5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/minutesToHours.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.572065+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b3565934517855a5f5930ba7ab7bc56380f29941f785c51bc5676f29d4142725"
+  }
+}

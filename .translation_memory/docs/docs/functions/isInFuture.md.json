@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/isInFuture.md",
+  "source_file_content_hash": "ef471bcf08b80771ab4d2cac9267f114f21a1fdf182d85b02047bd29099aa937",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: isInFuture()\n---",
+      "source_content_hash": "263efe254ee4a6d590d5d6bc8d510a9a3b05f26eb4bc81178d3d066a8a27a065",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `isInFuture`",
+      "source_content_hash": "575b77ff1f1d5bf395913dc427937a9c1f48deff94920ceebc02ae24490579ee",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `isInFuture`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a boolean, `true` if the given date is in the future.",
+      "source_content_hash": "50bb79aaf2205e0bc0684d544779a931742c7cd96ed51d20506da54564f77506",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回布尔值，若给定日期属于未来时间则返回 `true`。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { isInFuture } from 'easy-dates'\n\nisInFuture(date)\n```",
+      "source_content_hash": "619150b8c28523a1b503bedeb5f22b9d6138bd2050db8ff04285017bc07ccaa6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Throws an error when given a type other than `Date`.",
+      "source_content_hash": "10bbd459d0ddb34b4f8707c5702097916e45a969efadd5f82ae6d495660c700d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当传入非 `Date` 类型时会抛出错误。"
+      }
+    },
+    {
+      "segment_id": "3be30365",
+      "source_content": "| prop            | type   | required | default |\n|-----------------|--------|----------|---------|\n| `date`          | `date` | yes      | n/a     |",
+      "source_content_hash": "1b995081371654aee7f21b88ec81fdd890c12433ffd15c3590ee522fa42d66ee",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3be30365"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "```javascript\nisInFuture(new Date('2022-01-01')) // false\n```",
+      "source_content_hash": "fa062805c985c85b2efa2a58200ea6313f28041e4a277be4b27216170cac2430",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```javascript\nisInFuture(new Date('2030-01-01')) // true\n```",
+      "source_content_hash": "015732361100cffdad68e5095cc74ccfa9e94ba84dee4e7afadf53ef44c3104d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "```javascript\nisInFuture('2022-01-02') // throws an error\n```",
+      "source_content_hash": "b52332bc7e54f04e9f8dc8c385a56d798f46802c40e0f8a4429d95d64de67059",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/isInFuture.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.577262+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ef471bcf08b80771ab4d2cac9267f114f21a1fdf182d85b02047bd29099aa937"
+  }
+}

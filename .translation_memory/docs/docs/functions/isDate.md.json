@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/isDate.md",
+  "source_file_content_hash": "f4436d44be4736883991ab6343af380b41ff4e80a429ff116c277b3df5fe1ccb",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: isDate()\n---",
+      "source_content_hash": "27010a5dd1a53ed7b67661d515347e5df6316f9ce7c88bf05f4ec2b15404be19",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `isDate()`",
+      "source_content_hash": "d20bb3cd1f6f51c59f34f3e939cc7b49c81dfa5f9023d96e5923e25f8d12f446",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `isDate()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a boolean, `false` if the first date is after the second date.",
+      "source_content_hash": "45d4496461978098d23959225d0daf715ab3ca92850a61d3afba4546063620e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回布尔值，若第一个日期晚于第二个日期则返回`false`。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { isDate } from 'easy-dates'\n\nisDate(date)\n```",
+      "source_content_hash": "dea850ade16744c056506404196691b6d6dfbc1288e04d30eeb4b2ab3988c578",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "60e4ab9d",
+      "source_content": "| prop            | type   | required | default |\n|-----------------|--------|----------|---------|\n| `date`          | `date` | yes      | n/a     |",
+      "source_content_hash": "1b995081371654aee7f21b88ec81fdd890c12433ffd15c3590ee522fa42d66ee",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_60e4ab9d"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "cbbebf8e",
+      "source_content": "```javascript\nisDate(new Date('2022-01-01')) // true\n```",
+      "source_content_hash": "a06c0aa708235d48a77aa9ad6322b1fe8b16cf87245f088b298a619bc1f4a5ab",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cbbebf8e"
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```javascript\nisDate(`${new Date('2022-01-01')}`) // false\n```",
+      "source_content_hash": "7b33cd498659a7ba93100d6c8085d3cd7064a4418d2d669e25a1a842461d1e4d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "0c911872",
+      "source_content": "```javascript\nisDate('2022-01-02') // false\n```",
+      "source_content_hash": "02cff483f0c993c7a880a934b12323e6eb3cf3592080939624d0741e5e300958",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0c911872"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/isDate.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.577493+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f4436d44be4736883991ab6343af380b41ff4e80a429ff116c277b3df5fe1ccb"
+  }
+}

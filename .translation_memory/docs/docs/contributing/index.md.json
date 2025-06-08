@@ -1,0 +1,382 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/contributing/index.md",
+  "source_file_content_hash": "8cba0a0e5299432fee1b5643246852f4cf4a2da858d519cc4142bfaaa5ea7aac",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 6\nsidebar_label: \"Contributing\"\n---",
+      "source_content_hash": "7a111d0c2a9eba889bb30d6517e716064423900f99f5feb5f0f47f0321bf7919",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "# Contributing to `easy-dates`",
+      "source_content_hash": "c052b855a2d40436314b3f852f23b9bacac9099c706c23ad3a5c4a74e507ff77",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 为 `easy-dates` 贡献代码"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "First off, thanks for taking the time to contribute! :tada:",
+      "source_content_hash": "9fa5ffd2f32f7f8b58e1e7799716288000258aa27b97ff6087d3bd8c0214e139",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首先，感谢您抽出时间参与贡献！🎉"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "The following is a set of guidelines for contributing to `easy-dates`. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.",
+      "source_content_hash": "a66206ae4011973d7caf086d89980c17e8cc5abb025241894f7e80c976777b79",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下是为 `easy-dates` 项目贡献代码的指南。这些主要是指导原则而非硬性规定，请根据实际情况灵活运用，也欢迎通过 Pull Request 提议修改本文档。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Code of Conduct",
+      "source_content_hash": "6b634ac1509e74a2c3b8ff6bb71c15e6a99099d9b90cada716841f3939ff653d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 行为准则"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "This project and everyone participating in it is governed by the [Code of Conduct](code-of-conduct). By participating, you are expected to uphold this code. Please report unacceptable behavior to [hello@sandypockets.dev](mailto:hello@sandypockets.dev).",
+      "source_content_hash": "9f89cafeee6169bb1d9e9fb942b06a058ab44acc106060c6c7aa4b383a0348d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本项目所有参与者均需遵守[行为准则](code-of-conduct)。如发现不当行为，请邮件举报至 [hello@sandypockets.dev](mailto:hello@sandypockets.dev)。"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## How Can I Contribute?",
+      "source_content_hash": "9543156ba0abf6c9a148d9642346c9978e6c8ba68dbf7fec79c8a5f078cc2b55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何参与贡献？"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "### Reporting Bugs",
+      "source_content_hash": "77f9e63b045247b4ecb0bcabdca0b1ad838afc383cde3e88c681712cf00b8b73",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 提交错误报告"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.",
+      "source_content_hash": "50a7373212a9f826778398554729743a8ceefb977af56658fbb636b6431b1cf8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本部分将指导您提交错误报告。遵循这些指南有助于维护者和社区成员理解问题、复现现象并定位相关报告。"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one.",
+      "source_content_hash": "16f1fcc250f098b814e86fa8f3901734773a09a10c750a0f2decd9dbbf875f3b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建错误报告前，请先查阅[检查清单](#before-submitting-a-bug-report)，可能您无需提交新报告。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out the required template, the information it asks for helps resolve issues faster.",
+      "source_content_hash": "c1d034711e939ac044598ceac97966f3eda73a6d31940b02cd54dabdbf26a73d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建错误报告时，请[尽可能提供详细信息](#how-do-i-submit-a-good-bug-report)。填写模板要求的信息将加速问题解决。"
+      }
+    },
+    {
+      "segment_id": "b05e7a62",
+      "source_content": "> **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.",
+      "source_content_hash": "70b0e5710b9effc2ec5d182f8c147aba40621c990d956d22d3769218d16de8fc",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> **注意：** 若发现已关闭的类似问题，请新建问题并在正文中附上原问题链接。"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "#### Before Submitting A Bug Report",
+      "source_content_hash": "090c4860ef87f4b05f3871ef88878986375b68872d2a920dd3d1703f75fbe647",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 提交错误报告前的检查"
+      }
+    },
+    {
+      "segment_id": "5da9e02b",
+      "source_content": "* Check if you can reproduce the problem in the latest version of `easy-dates`. The current version is [![](https://img.shields.io/npm/v/easy-dates?color=%231eb319&label=)](https://www.npmjs.com/package/easy-dates)\n* Check the existing open and closed issues, to be sure that the issue has not already been triaged or resolved.",
+      "source_content_hash": "54f3bb9941031501a0a2189812bf5ba707053bc9e15d00d67362a078f4319548",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 确认问题在最新版 `easy-dates` 中可复现。当前版本为 [![](https://img.shields.io/npm/v/easy-dates?color=%231eb319&label=)](https://www.npmjs.com/package/easy-dates)\n* 检查现有开放/关闭的 issue，确保问题未被处理或已解决"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "#### How Do I Submit A (Good) Bug Report?",
+      "source_content_hash": "4739ddd11b8bfae2a7412f40fde9e04e7d80971c94f0edb5ac447806a394bc3e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 如何提交优质错误报告？"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue, and provide the following information by filling in the questions in the issue template.",
+      "source_content_hash": "e0c6ae2b2d45fb5a70660bc0816b45820b83b4b0722198b56fd7a40257933680",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "错误报告通过 [GitHub issues](https://guides.github.com/features/issues/) 跟踪。创建 issue 时请按模板回答以下问题："
+      }
+    },
+    {
+      "segment_id": "5d66c9dc",
+      "source_content": "* **Use a clear and descriptive title** for the issue to identify the problem.\n* **Describe the exact steps which reproduce the problem** in as many details as possible. \n* **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, (or examples in StackBlitz or CodeSandbox), which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).\n* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.\n* **Explain which behavior you expected to see instead and why.**\n* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem.",
+      "source_content_hash": "d073aea62b9b670ebe9b1de639f44ab33ffbd9dd22d2eec5fa5393d90a8e443e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **使用清晰明确的标题**概括问题\n* **详细描述问题复现步骤**（尽可能具体）\n* **提供可演示步骤的示例**：可包含文件链接、GitHub 项目、可直接复用的代码片段（或 StackBlitz/CodeSandbox 示例）。若在 issue 中提供代码，请使用[Markdown代码块](https://help.github.com/articles/markdown-basics/#multiple-lines)\n* **描述遵循步骤后观察到的异常行为**，明确指出问题所在\n* **说明预期行为及其原因**\n* **附上截图和动态GIF**展示操作步骤与问题现象"
+      }
+    },
+    {
+      "segment_id": "54268405",
+      "source_content": "### Suggesting Enhancements",
+      "source_content_hash": "94a7efeb1e890b03cfd8324ca92a8a675507d78cb8ebbeaafc918a43de7451fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 功能建议"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "When you are creating an enhancement suggestion, please include as many details as possible, including the steps that you imagine you would take if the feature you're requesting existed.",
+      "source_content_hash": "7e5e09b15b09e1ecebd612d7e75dea1680221454e48e8d187caa3a83995b4658",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "提交功能建议时，请尽可能详细描述，包括假设该功能存在时您将如何使用的具体步骤。"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "#### Before Submitting An Enhancement Suggestion",
+      "source_content_hash": "2d9f88ef43fceae02c0059446da724c4083347d50b85e1729371298c6401656b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 提交功能建议前的准备"
+      }
+    },
+    {
+      "segment_id": "6773b78b",
+      "source_content": "* **Perform a cursory search** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one. Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue in the repository and provide the following information:\n* **Use a clear and descriptive title** for the issue to identify the suggestion.\n* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.\n* **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).\n* **Describe the current behavior** and **explain which behavior you expected to see instead** and why.",
+      "source_content_hash": "255e05f09c5cbeac70acbae1c3342be4f951bf69c4b612a9185de6e95ed2d1a1",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **初步搜索**确认该功能增强建议是否已被提出。若已存在，请在原有issue中添加评论而非新建issue。功能增强建议通过[GitHub issues](https://guides.github.com/features/issues/)进行追踪。请在仓库中创建issue并提供以下信息：\n* **使用清晰明确的标题**来标识该建议\n* **逐步详细描述建议的功能增强**，尽可能包含细节\n* **提供具体示例来演示步骤**。包含可复用的代码片段，使用[Markdown代码块](https://help.github.com/articles/markdown-basics/#multiple-lines)格式\n* **描述当前行为**并**说明期望行为及其原因**"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "### Pull Requests",
+      "source_content_hash": "581d1ea49d92ead3ec74204f771de3bf9d42563308a81f8848bf701b48276c4b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 拉取请求(Pull Requests)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "The maintainers must be satisfied prior to having your pull request reviewed, and the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.",
+      "source_content_hash": "55a1e34dcf51807742c150f898e38939e21c68f3ae836315c7b8cbb97c826886",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在您的拉取请求被审核前，维护人员需要确认其完整性。审核者可能会要求您完成额外的设计工作、测试或其他修改后，才会最终接受您的拉取请求。"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "## Styleguides",
+      "source_content_hash": "5de15dd835d8569cdc3618b13503c38cf545adc38a9c5b0836aa9b9245ca00fe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 风格指南"
+      }
+    },
+    {
+      "segment_id": "e912d935",
+      "source_content": "### Git Commit Messages",
+      "source_content_hash": "e13760448c0eabe27b3d09398df906cba162750b6866104cd43889c1aae76893",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Git提交信息"
+      }
+    },
+    {
+      "segment_id": "ea0c7bae",
+      "source_content": "* Use the present tense (\"Add feature\" not \"Added feature\")\n* Use the imperative mood (\"Move cursor to...\" not \"Moves cursor to...\")\n* Limit the first line to 72 characters or less",
+      "source_content_hash": "58973a823bb29a1ed46191acc67102f37d88a6e63c9101bee3a62b29d47a4535",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 使用现在时态（\"添加功能\"而非\"已添加功能\"）\n* 使用祈使语气（\"将光标移至...\"而非\"将光标移动至...\"）\n* 首行限制在72个字符以内"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "### JavaScript Styleguide",
+      "source_content_hash": "6c75297634f14cc210189efd350ec4209ced9d6ee2bb18b4b620575a616e4292",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### JavaScript风格指南"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "All JavaScript code is linted with [Prettier](https://prettier.io/).",
+      "source_content_hash": "96ca2cae39f8d6c476b64baf61c6cb2118f0a3baff6c45d95824c15bc72b3044",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有JavaScript代码都使用[Prettier](https://prettier.io/)进行格式化"
+      }
+    },
+    {
+      "segment_id": "af6ca965",
+      "source_content": "* Prefer the object spread operator (`{...anotherObj}`) to `Object.assign()`\n* Inline `export`s with expressions whenever possible",
+      "source_content_hash": "33179040606f8f3c92899daf7946ea94d4413f887cbb865760f125edc923e67e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 优先使用对象展开运算符(`{...anotherObj}`)而非`Object.assign()`\n* 尽可能使用表达式内联`export`"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## Automating the development process",
+      "source_content_hash": "a9a3d46c87b2efa1f9ecca4b50781db9c8ae201e5e334e76b65f98dd4db57bfe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化开发流程"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "If you're writing new functions for the library, then you can use a the `createNewFunctionFiles` script to generate a new function file and test file. To run the script, run the following command, replacing `myNewFunctionName` with the actual name of the function you're creating:",
+      "source_content_hash": "ef6ecb35ac1e1c641fb4feeb24fca41e8754b095fa812c5ea76e7685b4b4e86c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您正在为库编写新函数，可以使用`createNewFunctionFiles`脚本生成新的函数文件和测试文件。运行以下命令（将`myNewFunctionName`替换为您要创建的实际函数名）："
+      }
+    },
+    {
+      "segment_id": "c808e01e",
+      "source_content": "```shell\nyarn new myNewFunctionName\n```",
+      "source_content_hash": "8591f2945314f89309cb718640630fe51ecbe490066d807eefadff101c14f3b9",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c808e01e"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "This will generate a new directory with a new function file and test file.",
+      "source_content_hash": "da30ed135daec9f612d5c6a6a71ba0376d74a68b59d1cb7b7b1085f9ff683f17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这将生成包含新函数文件和测试文件的新目录"
+      }
+    },
+    {
+      "segment_id": "092b29bb",
+      "source_content": "```shell\nsrc/myNewFunctionName/myNewFunctionName.js\nsrc/myNewFunctionName/myNewFunctionName.test.js\n```",
+      "source_content_hash": "2eb69a73c2a66ae03b714694277956cbfac127c742859c52fa8cf741d11e4622",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_092b29bb"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "It will also generate an export statement in the `src/index.js` file, and create a new documentation entry in the `docs/myNewFunctionName.md` file.",
+      "source_content_hash": "848f29ce47a4e188319652d6a3feb52cb0609c6a46ea532d28e857b875e9f9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时会在`src/index.js`文件中生成导出语句，并在`docs/myNewFunctionName.md`文件中创建新的文档条目"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "### Testing your new function",
+      "source_content_hash": "673e26f5e8746e5b8e56f26590f02714b45892cba63b55e60554ce26c18ae1f5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 测试新函数"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "When your function code and tests are written, run `yarn test`. This will lint your code, run the build script, then run your tests. If you have any errors, you can fix them and re-run the tests by once again running `yarn test`. Once all test are passing, submit your pull request.",
+      "source_content_hash": "7d3a0e5f24cef48c933d730d2fb33162d7028883b4e44d15c5c99602cbb8209d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当函数代码和测试编写完成后，运行`yarn test`。这将执行代码检查、构建脚本运行及测试。若存在错误，修复后可再次运行`yarn test`重新测试。所有测试通过后即可提交拉取请求"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/contributing/index.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.583254+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8cba0a0e5299432fee1b5643246852f4cf4a2da858d519cc4142bfaaa5ea7aac"
+  }
+}

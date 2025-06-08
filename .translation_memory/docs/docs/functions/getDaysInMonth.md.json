@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getDaysInMonth.md",
+  "source_file_content_hash": "9f9c00a4ef9278fd19bfeae5bfcc748d561464c4b5e76cb0316598219a81467b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"getDaysInMonth()\"\n---",
+      "source_content_hash": "3767d42f05026f89a391ab1c97388e99589768003f8ff136e6339321f1b9e699",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getDaysInMonth()`",
+      "source_content_hash": "bdd153eaad8d83936dd729472a16a1e4a85efe40918296fb831e67ff34011099",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getDaysInMonth()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of days in a given month. Note that month indexes start at 0. If no arguments are provided, it returns data about the current month.",
+      "source_content_hash": "c84898c433e444c4ee1e5c1527ebb1964bb49da3012300861e91cc4ff11ff25d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回指定月份的天数。注意月份索引从0开始计数。若未提供参数，则返回当前月份的数据。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { getDaysInMonth } from 'easy-dates';\n\ngetDaysInMonth(month, year)\n```",
+      "source_content_hash": "d366fcfbef6251009b647265aa402bec4da8d9103701af8264fff45ae9516a2d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "The `month` can be a number, representing the index of the month, or can be the name of the month.",
+      "source_content_hash": "a2ceca1ad112bf5315d254933c234073ddd307a4fa509b847a118ce9795a854d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "参数`month`可以是表示月份索引的数字，也可以是月份名称。"
+      }
+    },
+    {
+      "segment_id": "3be30365",
+      "source_content": "| prop      | type             | required | default       |\n|-----------|------------------|----------|---------------|\n| `year`    | number           | no       | current year  |\n| `month  ` | string or number | no       | current month |",
+      "source_content_hash": "efc43b3ada506fd5e07ac117a8ff15ba2575eaccb32fb81f94f73525430e458b",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3be30365"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "f2b711c6",
+      "source_content": "```javascript title='using two number arguments'\ngetDaysInMonth(1, 2022) // 28\n```",
+      "source_content_hash": "92ed7e3ded05b8139144eb2442911d2b6fd7dacb7b48f29bba38636f239e412c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f2b711c6"
+      }
+    },
+    {
+      "segment_id": "15a1fd96",
+      "source_content": "```javascript title='using a string for the month'\ngetDaysInMonth(\"feb\", 2022) // 28 \n```",
+      "source_content_hash": "bb3334d6597f6869abc91c71c3333ea175e63353acd5730c37f2f9bd17aeec55",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_15a1fd96"
+      }
+    },
+    {
+      "segment_id": "b017063d",
+      "source_content": "```javascript title='when no args are used, the current month (Feb) is returned'\ngetDaysInMonth() // 28 \n```",
+      "source_content_hash": "1f2b5a08f15298b82d20ee09650ec4de4547f2eb3177c56031b44173f46939ca",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b017063d"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getDaysInMonth.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.580840+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9f9c00a4ef9278fd19bfeae5bfcc748d561464c4b5e76cb0316598219a81467b"
+  }
+}

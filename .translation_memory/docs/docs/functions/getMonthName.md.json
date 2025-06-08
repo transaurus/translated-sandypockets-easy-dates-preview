@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getMonthName.md",
+  "source_file_content_hash": "8d85d73e31df5042179ab0e41ecf866970d1b73f0e6cfa90d228fb16767db770",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: getMonthName()\n---",
+      "source_content_hash": "f41981a0723d0f5ee6444d702c2831866e74803070c953ebce31a97def6bc407",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getMonthName()`",
+      "source_content_hash": "65385b8bc1f8982bc410eaf3419cff241d25d49f1f21727ffa51f01b9c1756a1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getMonthName()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the name of the month, for the given month number, in a given locale. The default locale is English.",
+      "source_content_hash": "6088d35294721decaca632ba5af61fdade5156dcd4cdbdf7a99690fe90999eab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回指定月份编号在给定语言环境下的月份名称，默认语言环境为英语。"
+      }
+    },
+    {
+      "segment_id": "a239c14b",
+      "source_content": ":::info\n### Supported locales\nAt this time, this function supports:\n\n- English (en)\n- French (fr)\n:::",
+      "source_content_hash": "ab03146c475baa410332f695ffc9655d7aaa63fad2ce1d52a2aa298a7fadf570",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n### 支持的语言环境\n当前该函数支持以下语言环境：\n\n- 英语 (en)\n- 法语 (fr)\n:::"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "93be3c14",
+      "source_content": "```javascript\nimport { getMonthName } from 'easy-dates';\n\ngetMonthName(local, index, short);\n```",
+      "source_content_hash": "aac27881cb00cd88f58c0b8e7587d70be9c6a6214a2c720a423f3d9a8d3aa53b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_93be3c14"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "584b7f0d",
+      "source_content": "| prop     | type      | required | default         |\n|----------|-----------|----------|-----------------|\n| `locale` | `String`  | no       | `en`            |\n| `index`  | `Number`  | no       | `current month` |\n| `short`  | `Boolean` | no       | `false`         |",
+      "source_content_hash": "05062893b8f49f796fe49d7da735d084050a9613aa73a88f53bbbd171c98fc36",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_584b7f0d"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "```javascript\ngetMonthName(\"en\", 0); // \"January\"\ngetMonthName(\"en\", 1); // \"February\"\n\ngetMonthName(\"fr\", 0); // \"Janvier\"\ngetMonthName(\"fr\", 1); // \"Février\"\n```",
+      "source_content_hash": "29398761f9e4458cd4bb740de498f1d668db2631b264c27a45857227a1d22f95",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    },
+    {
+      "segment_id": "de8f60af",
+      "source_content": "```javascript title=\"with short parameter true\"\ngetMonthName(\"en\", 0, true); // \"Jan\"\ngetMonthName(\"en\", 1, true); // \"Feb\"\n\ngetMonthName(\"fr\", 0, true); // \"Jan\"\ngetMonthName(\"fr\", 1, true); // \"Fév\"\n```",
+      "source_content_hash": "1037cdaf716aa4f2abc7ac4fb08bec9c2b93cb126b43779e09d753ac7b6a9be2",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_de8f60af"
+      }
+    },
+    {
+      "segment_id": "b75ddc12",
+      "source_content": "```javascript title=\"returns current month when no index is provided\"\ngetMonthName(); // \"April\"\n```",
+      "source_content_hash": "cf46a83244cf79d3a922a421f2208dad2372c593c5a7f7de9b2cf2d987be4e90",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b75ddc12"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getMonthName.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.578186+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8d85d73e31df5042179ab0e41ecf866970d1b73f0e6cfa90d228fb16767db770"
+  }
+}

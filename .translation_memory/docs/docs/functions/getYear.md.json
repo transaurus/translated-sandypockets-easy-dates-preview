@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/getYear.md",
+  "source_file_content_hash": "d584fcaf252e33fe9889d42dcdcaccd071d419a1ef813b3a049bd906ba0e6359",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"getYear()\"\n---",
+      "source_content_hash": "8f00fc205c45405b272b8b91a3d031734f04e6916d906f3b95b6092942c69536",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `getYear()`",
+      "source_content_hash": "df2aa0835a8d560e2e0920878e1f8b8810537b9bfa643ff784bfae746622f799",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `getYear()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the current year. This function does not accept any arguments.",
+      "source_content_hash": "774a26d10d6965ebc0f976a7c3aab654dfe4ee744f82d116da4fdb734db54630",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回当前年份。该函数不接受任何参数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { getYear } from 'easy-dates';\n\ngetYear()\n```",
+      "source_content_hash": "35bc4245ced3f68d4740a884fa41aff1f7463b35f53a88f8247c5fce7af07286",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "This function does not take arguments.",
+      "source_content_hash": "f7d488aeb5f6822d83c29b037f64b4c60184a2419d994ee126128930387daa7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此函数无需传入参数。"
+      }
+    },
+    {
+      "segment_id": "3be30365",
+      "source_content": "| props | type | required | default |\n|-------|------|----------|---------|\n| n/a   | n/a  |  n/a     | n/a     |",
+      "source_content_hash": "cd1674943b089cc1e07071e3487a60dde8a96d286221f93ab53de7807c3fd69c",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3be30365"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "```javascript\ngetYear() // 2022\n```",
+      "source_content_hash": "2c061a6da11a7105869d14bf76108d5f2dae9be9a7e38add3075fb5a0e01301b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/getYear.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.569884+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d584fcaf252e33fe9889d42dcdcaccd071d419a1ef813b3a049bd906ba0e6359"
+  }
+}

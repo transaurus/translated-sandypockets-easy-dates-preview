@@ -1,0 +1,142 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/closestTo.md",
+  "source_file_content_hash": "eba2712adf117dc1edbb93dcc2b65b4ab6a6a7eef3c0f440603e71ddc18e7fcd",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"closestTo()\"\n---",
+      "source_content_hash": "7bc170a01a5905207bb827f99d81c02fe503071644985e8b361c510dc9ba4cbd",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `closestTo()`",
+      "source_content_hash": "1eab0c4ba291dd949fe0ab7286e10f80abe9cf8c010498dd0aca134477f27edf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `closestTo()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Given an array of dates, `closestTo()` returns an object containing data of the `compareDate` closest to the `controlDate`.",
+      "source_content_hash": "0ece0cd55a7631b78e57df7448b1a8ed42d11171f705ac015b44fe74df0199c3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "给定一个日期数组，`closestTo()` 会返回一个包含与 `controlDate` 最接近的 `compareDate` 数据的对象。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { closestTo } from 'easy-dates';\n\nclosestTo(controlDate, compareDate) \n```",
+      "source_content_hash": "1fd24badbf75874e03b4d9cda9b3e79b178f6013a729033600c1439c5b626aa6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "The expected output is an `object` with the following properties:",
+      "source_content_hash": "ad28183db65cb57fc78df0ab5243796fdaa87bdf84fca480e86ce03f19eeece6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "预期输出是一个具有以下属性的 `object`："
+      }
+    },
+    {
+      "segment_id": "84758135",
+      "source_content": "- **`difference`**: the time in _milliseconds_ between the `controlDate` and the date closest in time from the `compareDate` argument. \n- **`closest`**: the date object of the closest date from the `compareDate`. \n- **`closestIndex`**: the index of the closest date in the `compareDate` array.",
+      "source_content_hash": "bf0da224907ee508375f8c6f7dd59a2def65607b3943b0533063ca2434e2138c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- **`difference`**：`controlDate` 与 `compareDate` 参数中最接近日期之间的时间差（以毫秒为单位）。\n- **`closest`**：`compareDate` 中最接近日期的日期对象。\n- **`closestIndex`**：`compareDate` 数组中最接近日期的索引。"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "74032648",
+      "source_content": "| prop          | type    | required | default |\n|---------------|---------|----------|---------|\n| `controlDate` | `date`  | yes      | `null`  |\n| `compareDate` | `array` | yes      | `null`  |",
+      "source_content_hash": "62ff7288d858de609b0d3355aad37524b3c7bbc6298ab2f36a06928fa392c53c",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_74032648"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "0c911872",
+      "source_content": "```javascript title='Compare multiple dates'\nconst twentyFourHours = 86400000;\nconst today = new Date(Date.now());\nconst tomorrow = new Date(Date.now() + twentyFourHours);\nconst dayAfterTomorrow = new Date(Date.now() + twentyFourHours * 2);\nconst weekAfterTomorrow = new Date(Date.now() + twentyFourHours * 7);\n\nconst argumentsArray = [tomorrow, dayAfterTomorrow, weekAfterTomorrow];\n\nclosestTo(today, argumentsArray) // { difference: 85400000, closest: Sat Mar 19 2022 20:26:34 GMT-0400 (Eastern Daylight Time), closestIndex: 0 }\n```",
+      "source_content_hash": "486f1355de3819d870eb4860c3426fcecb16b33f877a11e63d5e0f5c2cde7083",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0c911872"
+      }
+    },
+    {
+      "segment_id": "bca33820",
+      "source_content": "```javascript title='Compare a single date'\nconst twentyFourHours = 86400000;\n\nconst today = new Date(Date.now());\nconst tomorrow = new Date(Date.now() + twentyFourHours);\n\nclosestTo(today, [tomorrow]) // { difference: 85400000, closest: Sat Mar 19 2022 20:26:34 GMT-0400 (Eastern Daylight Time), closestIndex: 0 }\n```",
+      "source_content_hash": "5d0d0cc78eb143d55e91000a9ac338ecf8fb6ab470707f6d2608fdcd1a870c0a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bca33820"
+      }
+    },
+    {
+      "segment_id": "7d0728d9",
+      "source_content": ":::info[Comparing a single date?]\nDon't forget that the `compareDate` must be an array.\n:::",
+      "source_content_hash": "aa8ee040daffcf35a58140964b51d3d9ab94f9f7721255f846559d1f2d381843",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[比较单个日期？]\n请注意 `compareDate` 必须是一个数组。\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/closestTo.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.582132+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "eba2712adf117dc1edbb93dcc2b65b4ab6a6a7eef3c0f440603e71ddc18e7fcd"
+  }
+}

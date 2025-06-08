@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/index.md",
+  "source_file_content_hash": "4b1d9ba61f0655c51680f9046a1e54fead5344077a1cc767b7258634c250e985",
+  "segments": [
+    {
+      "segment_id": "76e4a56a",
+      "source_content": "# Functions",
+      "source_content_hash": "bec9a326d86e3a60600340e0c13c419e2d01adc13333483d004ee6a1ec04b892",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 函数"
+      }
+    },
+    {
+      "segment_id": "6688dbd9",
+      "source_content": "The entire `easy-dates` package is just a collection of functions. You'll find an explanation of how to use each function, and make the most of `easy-dates` in this section.",
+      "source_content_hash": "f498478be535ff77cff0f81b97f2eabef74d7d4a15771c32ce67d23004185cb0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "整个 `easy-dates` 包就是一系列函数的集合。在本节中，您将找到每个函数的使用说明，以及如何充分利用 `easy-dates` 的指南。"
+      }
+    },
+    {
+      "segment_id": "4dbcc3b4",
+      "source_content": "### Developer experience matters",
+      "source_content_hash": "8d9dc27c101d766e5e70c83eea1bb3676d03fd82e74da6bfaa5ec418ce73f4ed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 开发者体验至关重要"
+      }
+    },
+    {
+      "segment_id": "e7ec8f99",
+      "source_content": "If a function behaves differently than you would expect it to, or you wish `easy-dates` could do something that it currently can't, please do [open an issue on GitHub](https://github.com/sandypockets/easy-dates/issues).",
+      "source_content_hash": "4842a314d51eef1fd9825b43b0bf3078d1b96b36ab6d6526e2ad49781f42ee05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果某个函数的行为与您的预期不符，或者您希望 `easy-dates` 能实现当前不支持的功能，请务必[在 GitHub 上提交问题](https://github.com/sandypockets/easy-dates/issues)。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/index.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.571713+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4b1d9ba61f0655c51680f9046a1e54fead5344077a1cc767b7258634c250e985"
+  }
+}

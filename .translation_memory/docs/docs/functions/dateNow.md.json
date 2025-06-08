@@ -1,0 +1,152 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/dateNow.md",
+  "source_file_content_hash": "221c4141a892b9a7f953cded3525942cc89c4718cfc9ed5bf88142c9f2052153",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: 'dateNow()'\n---",
+      "source_content_hash": "0aec5b87dd369737dd6e5328b35e860b213e3f5a1da6e93d29c15d3586d7adb8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `dateNow()`",
+      "source_content_hash": "83bccef7cf93623c7a26e36a3220bdaa660875624fbef784fb54561f63827f7f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `dateNow()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "The `dateNow()` function returns the current date in a specified locale.",
+      "source_content_hash": "4a7a10de667200b0d38434466fce80519705857a21b00d17e3bc474d2b8d156d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`dateNow()` 函数返回指定区域设置的当前日期。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "### Usage",
+      "source_content_hash": "7a5b2d87044217ebeda4e071a80585106bae705217da72a3ec329261002e16ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { dateNow } from 'easy-dates';\n\ndateNow(locale)\n```",
+      "source_content_hash": "c5ef35bd7f5bccdc5ed4a961ad20212dabe70383409f0c528cbcfb86ba732f80",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "### Prop types",
+      "source_content_hash": "3faf7daaf244b7d2ea449e73b8ab17989e6a1dcc15633103c2add1011ffe4dc8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "If a locale argument is not provided when calling the function, then the locale defaults to Canadian English.",
+      "source_content_hash": "7ddcf7ecca067ba179183097ea874b3277a32e7bf1b9d4c793795616a6248b4d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若调用函数时未提供区域设置参数，则默认使用加拿大英语区域设置。"
+      }
+    },
+    {
+      "segment_id": "3be30365",
+      "source_content": "| prop     | type     | required | default   |\n|----------|----------|----------|-----------|\n| `locale` | `string` | no       | `'en-CA'` |",
+      "source_content_hash": "740210cedf6c3df53ba6f44211bb2ac49291af9846b67acde0542802d0b68e9c",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3be30365"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "### Examples",
+      "source_content_hash": "867cdb3f99fdd95a8de7b853c784c665d03b3d7a5595ff26714f56e203fb4a81",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 示例"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "For more examples of which locales can be used, refer to the [MDN Documentation: Using locales](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#using_locales).",
+      "source_content_hash": "d482e2cd452612b75396c2b545d4722f02f1addcaa386105eb63d7e42026e382",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "有关可使用的区域设置更多示例，请参阅 [MDN文档：使用区域设置](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#using_locales)。"
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```javascript title='Canadian English'\ndateNow('en-CA') // 2022-03-20, 11:07:04 p.m.\n```",
+      "source_content_hash": "11fd108985b79bb0ca1cf5d5345405593bb39486b0cce40e76ec23a7ebaad213",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "0c911872",
+      "source_content": "```javascript title='US English'\ndateNow('en-US') // 3/20/2022, 11:07:04 PM\n```",
+      "source_content_hash": "55ac490c713866e6d50a029bbfd609d5821518e95a4fa52d090d5c29e906a4fe",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0c911872"
+      }
+    },
+    {
+      "segment_id": "a2110253",
+      "source_content": "```javascript title='UK English'\ndateNow('en-UK') // 20/03/2022, 23:06:39\n```",
+      "source_content_hash": "fb05e4c02a9efaa6a88bc27f1f17dcad818c26471414a2c0caa30aca9e41869d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a2110253"
+      }
+    },
+    {
+      "segment_id": "be2d5397",
+      "source_content": "```javascript title='Arabic'\ndateNow('ar-EG') // '٢٠‏/٣‏/٢٠٢٢, ١١:٠٨:٠١ م'\n```",
+      "source_content_hash": "d6f2259328438f921c5cd77f9de1734723da6a694e5e5958082c963c5fb0d98d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_be2d5397"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/dateNow.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.581267+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "221c4141a892b9a7f953cded3525942cc89c4718cfc9ed5bf88142c9f2052153"
+  }
+}

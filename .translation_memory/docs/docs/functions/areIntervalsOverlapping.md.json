@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/areIntervalsOverlapping.md",
+  "source_file_content_hash": "48a7c88544848ddec043286b4130117a1ddb457dcf7ebab42f97aaef3cd196b7",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: areIntervalsOverlapping()\n---",
+      "source_content_hash": "1b8421454b64649c7e3dd8010e0993ff6ef06e5ffcace432dcb86e63a3fdc829",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `areIntervalsOverlapping()`",
+      "source_content_hash": "bbaefe7be7dc0f3d48b6b845739c3fa891160f4cb29245609808e369afcbe416",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `areIntervalsOverlapping()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a boolean representing whether two date ranges have any overlap.",
+      "source_content_hash": "4858d7b44f4f8ab75a890ead5b05e0f5564a514b8e198af1643f9fd457b6950a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回一个布尔值，表示两个日期范围是否存在重叠。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { areIntervalsOverlapping } from 'easy-dates';\n\nareIntervalsOverlapping(rangeOne, rangeTwo);\n```",
+      "source_content_hash": "5876ab46abdbf3b696aad12949ef64cc7e1ac0d44a9ec1363f874d55632395b2",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "The function accepts two arrays. Each array should contain two dates, forming a range.",
+      "source_content_hash": "1c0fc73c4ee94293b1e38267bde11811fa5bbf6eae3965b77c679b989bd89d52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该函数接受两个数组作为参数。每个数组应包含两个日期，构成一个日期范围。"
+      }
+    },
+    {
+      "segment_id": "b40647e4",
+      "source_content": "| prop       | type    | required | default   |\n|------------|---------|----------|-----------|\n| `rangeOne` | `Array` | yes      | `null`    |\n| `rangeTwo` | `Array` | yes      | `null`    |",
+      "source_content_hash": "c5658764bbb275b287472939a1aee02468a0c334c10fb0b3764affbc8ed41fe3",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b40647e4"
+      }
+    },
+    {
+      "segment_id": "6604338b",
+      "source_content": ":::info\n_Within_ each array (i.e. `rangeOne`), the first date must be before the second date. \n\n#### Example\n```javascript\nconst today = new Date(Date.now());\nconst tomorrow = new Date(Date.now() + oneDay);\n\n// The earlier date must be first\nconst rangeOne = [today, tomorrow]; // Do this\nconst rangeTwo = [tomorrow, today]; // Don't do this\n\n// If the arrays above are in the correct order, then the order of arguments doesn't matter\nareIntervalsOverlapping(rangeOne, rangeTwo) // Do this\nareIntervalsOverlapping(rangeTwo, rangeOne) // or do this\n```\n:::",
+      "source_content_hash": "019818b00b63ba35c15e9b495c28fce1b13533619aceec91f33fa0f1f3817dfa",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n每个数组内部（即 `rangeOne`），第一个日期必须早于第二个日期。\n\n#### 示例\n```javascript\nconst today = new Date(Date.now());\nconst tomorrow = new Date(Date.now() + oneDay);\n\n// 较早的日期必须排在前面\nconst rangeOne = [today, tomorrow]; // 正确写法\nconst rangeTwo = [tomorrow, today]; // 错误写法\n\n// 如果数组顺序正确，则参数顺序无关紧要\nareIntervalsOverlapping(rangeOne, rangeTwo) // 正确调用方式\nareIntervalsOverlapping(rangeTwo, rangeOne) // 或这样调用\n```\n:::"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "d9330cd7",
+      "source_content": "```javascript\nconst oneDay = 24 * 60 * 60 * 1000;\nconst today = new Date(Date.now());\nconst tomorrow = new Date(Date.now() + oneDay);\nconst nextWeek = new Date(Date.now() + oneDay * 7);\n\nconst rangeOne = [today, nextWeek];\nconst rangeTwo = [tomorrow, nextWeek];\n\nareIntervalsOverlapping(rangeOne, rangeTwo) // true\n```",
+      "source_content_hash": "d304595eb8f09ef4c35d834b5353576730e157e9e01a46ae613c01bc03973e58",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d9330cd7"
+      }
+    },
+    {
+      "segment_id": "f275f5fd",
+      "source_content": "```javascript\nconst oneDay = 24 * 60 * 60 * 1000;\nconst today = new Date(Date.now());\nconst nextWeek = new Date(Date.now() + oneDay * 7);\n\nconst rangeOne = [today, nextWeek];\n\nconst twoWeeks =  new Date(Date.now() + oneDay * 14);\nconst threeWeeks =  new Date(Date.now() + oneDay * 21);\n\nconst rangeThree = [twoWeeks, threeWeeks]\n\nareIntervalsOverlapping(rangeOne, rangeThree) // false\n```",
+      "source_content_hash": "ae9ccb84f3bc824e1aa8768a131c402c9b73ed438866b99c2de486dc9d1fe7c1",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f275f5fd"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/areIntervalsOverlapping.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.581710+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "48a7c88544848ddec043286b4130117a1ddb457dcf7ebab42f97aaef3cd196b7"
+  }
+}

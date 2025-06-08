@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/introduction/index.md",
+  "source_file_content_hash": "b5f1ca8723ce25593b10404a53d90a222fe93ac32996fa80a56c2e8311fea7f4",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_position: 1\n---",
+      "source_content_hash": "92a21a112978c590263ada3554195d9905c8c585e619dccd5f0a4cf518a7076f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# Getting started",
+      "source_content_hash": "7b82d33bbaae3080573ae4feda845eeb22acfb6db5c913760c36ab61f6345db7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 快速开始"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "`easy-dates` is a tiny, zero-dependency library intended to make working with JavaScript dates easier.",
+      "source_content_hash": "cb5da761eb80b373473c3a6e5ae085b8e67fc3ac7fcaa36c07a4a034a145680d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`easy-dates` 是一个轻量级、零依赖的 JavaScript 库，旨在简化日期操作。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "It helps you ship compact code, that behaves consistently, and removes challenges like mixing up the millisecond clock that JavaScript uses with the seconds-based clock of Unix.",
+      "source_content_hash": "f2a6a25ea8894f346f3b4de89036e8db106e1f8ce7a28e871ec2329279975748",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "它能帮助您编写更精简的代码，确保行为一致性，并解决诸如 JavaScript 使用的毫秒级时钟与 Unix 秒级时钟混淆等问题。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Most importantly, `easy-dates` lets you focus on what you're building, instead of fiddling around with dates.",
+      "source_content_hash": "17ef22806c3923a1fcf528b0976646a407145faf93ca310a6ab5dabbd8841749",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最重要的是，`easy-dates` 让您能专注于产品开发，而非纠结于日期处理。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/introduction/index.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.575841+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b5f1ca8723ce25593b10404a53d90a222fe93ac32996fa80a56c2e8311fea7f4"
+  }
+}

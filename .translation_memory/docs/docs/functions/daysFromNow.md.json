@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/daysFromNow.md",
+  "source_file_content_hash": "0115f0df6a85794d6f04db9e336e791e782e8f72391b441096d5982b79b3396f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: \"daysFromNow()\"\n---",
+      "source_content_hash": "2461dec46f88d9fcbebef9d3ce8d0d2928464d71dc09d285e2de740a6e695397",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `daysFromNow()`",
+      "source_content_hash": "3e7c8ad23d2ac35871608f439c51989593d1fbb9741358f66c78e781bda400f9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `daysFromNow()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns a localized date that is a specified number of days away.",
+      "source_content_hash": "f7589520ed13fdfc5e92408bc7044eb8e90449fe2ebe4c05df6669812f48fa69",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回与当前日期相隔指定天数的本地化日期。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { daysFromNow } from 'easy-dates';\n\ndaysFromNow(multiplier, locale)\n```",
+      "source_content_hash": "d2773af73fdc0a46ba71d7cdc90ade47f04a0a61297fe36a1bc3bbc72972842b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "60e4ab9d",
+      "source_content": "| prop         | type     | required | default   |\n|--------------|----------|----------|-----------|\n| `multiplier` | `number` | yes      | `null`    |\n| `locale`     | `string` | no       | `'en-CA'` |",
+      "source_content_hash": "29f10ca61e841eb95bf79bb1b88b191529e6323f9e9c2de75a2ecadb055c9a0c",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_60e4ab9d"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript title='one day from now - defaults to Canadian English'\ndaysFromNow(1) // Tue Mar 22 2022 00:08:07 GMT-0400 (Eastern Daylight Time)\n```",
+      "source_content_hash": "76d86f5ac5bac72463a128baf348203ff5c82614342ce4e1c68dda002120cf1a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript title='one day from now - United Kingdom Enlighs'\ndaysFromNow(1, 'en-UK') // '22/03/2022, 00:08:57'\n```",
+      "source_content_hash": "5c39e336d9ca43995fa0a02ffd306496bd7e80fb687e8d69fc039367f68cef2d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```javascript title='42 days from now - United States English'\ndaysFromNow(42, 'en-US') // '5/2/2022, 12:09:45 AM'\n```",
+      "source_content_hash": "081c08aecd1698df4a2f1e1ebf95ff1495eb91fdb2aab9b8e4a001edb504901c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/daysFromNow.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.574818+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0115f0df6a85794d6f04db9e336e791e782e8f72391b441096d5982b79b3396f"
+  }
+}

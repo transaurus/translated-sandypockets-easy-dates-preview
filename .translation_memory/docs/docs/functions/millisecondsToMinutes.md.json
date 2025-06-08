@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/millisecondsToMinutes.md",
+  "source_file_content_hash": "46cdcd9c3e51f642b84bcf3e8b1a94027069bd66794ad6e0182c6f2c96087d1b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: 'millisecondsToMinutes()'\n---",
+      "source_content_hash": "d26b796502162e31d506acab809efeb6c696e82f8d5a94a2253117c2acc4d6ed",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `millisecondsToMinutes()`",
+      "source_content_hash": "19eaeda42fd0d7e5a1cfcac22d2ddc6deafbac9fdb56b29c14209b12aae69bed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `millisecondsToMinutes()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of minutes from a given number of milliseconds.",
+      "source_content_hash": "90cd6ac6e1920570b5f0679dc731b7a767ed82a43caa91c6b1ea77a551066a0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将给定的毫秒数转换为分钟数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "### Usage",
+      "source_content_hash": "7a5b2d87044217ebeda4e071a80585106bae705217da72a3ec329261002e16ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { millisecondsToMinutes } from 'easy-dates';\n\nmillisecondsToMinutes(milliseconds);\n```",
+      "source_content_hash": "2f24c6c22bb30baa32788a05987a18a74782d1e5eab141f043a07c773c221dcb",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "### Prop types",
+      "source_content_hash": "3faf7daaf244b7d2ea449e73b8ab17989e6a1dcc15633103c2add1011ffe4dc8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop           | type     | required | default |\n|----------------|----------|----------|---------|\n| `milliseconds` | `number` | yes      | n/a     |",
+      "source_content_hash": "95e9f60913880a3c475f9692d33b13db29f944e2fa2bd403b9d86f27d6ddf1de",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "### Examples",
+      "source_content_hash": "867cdb3f99fdd95a8de7b853c784c665d03b3d7a5595ff26714f56e203fb4a81",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nmillisecondsToMinutes(3600000) // 60\n```",
+      "source_content_hash": "6de0d46c60d59036bfd7d9e3d5d63f732cfeb29b9581913e37d93d5043df03eb",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nmillisecondsToMinutes(7200000) // 120\n```",
+      "source_content_hash": "e02e7bd49dc392e294752f02e6a963e0ef6efa291a0b12e7458b2b74bff302c4",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/millisecondsToMinutes.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.577961+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "46cdcd9c3e51f642b84bcf3e8b1a94027069bd66794ad6e0182c6f2c96087d1b"
+  }
+}

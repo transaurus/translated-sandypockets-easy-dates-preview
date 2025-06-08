@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/minutesToSeconds.md",
+  "source_file_content_hash": "7c9da4b570e0f88a667c91250140b8d26013d6f003100b5b08c73d81b3316350",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: minutesToSeconds()\n---",
+      "source_content_hash": "0a3afddd6d6d37d4df66f751350998b5f753bf3ad2af43dc7f8b6650f1cbc6a9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `minutesToSeconds()`",
+      "source_content_hash": "e51f9398dd2bd08b21c9468e38a5952cbb22137c328945d4d3ed27a8099cf8e3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `minutesToSeconds()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of seconds equal to the given number of minutes.",
+      "source_content_hash": "082e186f7f6e8d87f443dd78dc4737d61897cf0c18f683700fbe99aa0d3f2482",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回与给定分钟数相等的秒数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Usage",
+      "source_content_hash": "63bfd61a0561b255a2caa0a2e3add091ca7e327f2fa06a407cbb2ff341b858d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { minutesToSeconds } from 'easy-dates';\n\nminutesToSeconds(minutes);\n```",
+      "source_content_hash": "c75bfee0720143cab95702478d37e374b56d33c69ee86b7b93b05cbcdcedf471",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Prop types",
+      "source_content_hash": "7b246751e8f021aeb00747a3e19c0d9509a0043bfd22b644c06430089f23494d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop      | type     | required | default  |\n|-----------|----------|----------|----------|\n| `minutes` | `number` | yes      | `null`   |",
+      "source_content_hash": "16d20036bef49f6d608083e9aa988f1c95bea951f05e16a8d40cf0a525775944",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Examples",
+      "source_content_hash": "0d19ab46319785768005536313f02bd3b9b779aaed82eeac5bf7a7f796ad3ef1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nminutesToSeconds(1); // 60\n```",
+      "source_content_hash": "110477b57e266ddd1b47b32af4f7ef2d1c31f906d00055b16e8cc7b3d9f4110b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nminutesToSeconds(60); // 3600\n```",
+      "source_content_hash": "e096ec08749174685a59a218998a2f5b69f6cb9a97c093a02c002807d1fe3b5f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```javascript\nminutesToSeconds('1'); // Error\n```",
+      "source_content_hash": "473beac5bb7b3de84beb3196df48f35524ea1875d495635c62b49fc156903ce2",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/minutesToSeconds.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.576558+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7c9da4b570e0f88a667c91250140b8d26013d6f003100b5b08c73d81b3316350"
+  }
+}

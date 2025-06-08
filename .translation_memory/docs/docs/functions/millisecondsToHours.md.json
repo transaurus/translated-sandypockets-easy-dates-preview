@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/functions/millisecondsToHours.md",
+  "source_file_content_hash": "ff081ccd6d207896f3ff1e9c06de5d983f57c6eb6abdbec30578393df656decc",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nsidebar_label: 'millisecondsToHours()'\n---",
+      "source_content_hash": "c9d2158aed5e497c50de8f2e8bd87cd5361e8ed8fbbaf81d135658fcd2444c14",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "# `millisecondsToHours()`",
+      "source_content_hash": "096ef08b702499e4492e91b1ab1dd7e90f479166a38950fd710ff35cf114e48c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# `millisecondsToHours()`"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Returns the number of hours from a given number of milliseconds.",
+      "source_content_hash": "5bf66d36e1ee0f6b8a119397be4690ec6dd78eb7ee36b52034c1b41b76ae710a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将给定的毫秒数转换为小时数。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "### Usage",
+      "source_content_hash": "7a5b2d87044217ebeda4e071a80585106bae705217da72a3ec329261002e16ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用法"
+      }
+    },
+    {
+      "segment_id": "71d8dc9b",
+      "source_content": "```javascript\nimport { millisecondsToHours } from 'easy-dates';\n\nmillisecondsToHours(milliseconds);\n```",
+      "source_content_hash": "e21d4899cfa8c8d5841ee65e439ed29d3f89d3b31aa925bd08b8076c2442f6d9",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71d8dc9b"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "### Prop types",
+      "source_content_hash": "3faf7daaf244b7d2ea449e73b8ab17989e6a1dcc15633103c2add1011ffe4dc8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 属性类型"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "| prop           | type     | required | default |\n|----------------|----------|----------|---------|\n| `milliseconds` | `number` | yes      | n/a     |",
+      "source_content_hash": "95e9f60913880a3c475f9692d33b13db29f944e2fa2bd403b9d86f27d6ddf1de",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "### Examples",
+      "source_content_hash": "867cdb3f99fdd95a8de7b853c784c665d03b3d7a5595ff26714f56e203fb4a81",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 示例"
+      }
+    },
+    {
+      "segment_id": "9eee5787",
+      "source_content": "```javascript\nmillisecondsToHours(3600000) // 1\n```",
+      "source_content_hash": "aced15e6b743c609b968962e2d10bd7e9a144378566208a022aa16ecdf1f7e1c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9eee5787"
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```javascript\nmillisecondsToHours(7200000) // 2\n```",
+      "source_content_hash": "bdf185855cdbd3479446a538ea0ff4cb6184fae64a5968803e03958a571c0384",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/functions/millisecondsToHours.md",
+  "last_updated_timestamp": "2025-06-08T19:13:53.573521+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ff081ccd6d207896f3ff1e9c06de5d983f57c6eb6abdbec30578393df656decc"
+  }
+}
