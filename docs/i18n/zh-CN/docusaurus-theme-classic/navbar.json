@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "easy-dates",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "我的站点标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.docs": {
+    "message": "文档",
+    "description": "Navbar item with label docs"
+  },
+  "item.label.github": {
+    "message": "GitHub",
+    "description": "Navbar item with label github"
+  },
+  "item.label.npm": {
+    "message": "npm",
+    "description": "Navbar item with label npm"
+  }
+}

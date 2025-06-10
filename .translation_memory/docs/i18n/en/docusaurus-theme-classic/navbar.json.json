@@ -1,0 +1,99 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "i18n/en/docusaurus-theme-classic/navbar.json",
+  "source_file_content_hash": "cd6c6344ecb213549b125a04f88f34aa37e2fd1767fc3d759120b8a6a219baed",
+  "segments": [
+    {
+      "segment_id": "title",
+      "source_content": "easy-dates",
+      "source_content_hash": "20280c7e5ab00416fc681c22b15f5884a9e45d5664518d6fcc4dfb0eb6eec591",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "easy-dates"
+      },
+      "metadata": {
+        "json_description": "The title in the navbar"
+      }
+    },
+    {
+      "segment_id": "logo.alt",
+      "source_content": "My Site Logo",
+      "source_content_hash": "d70dca67c5a8b700f077a31d594b6ee5ef9ef5667a33029924f71dc26c03c81b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我的站点标志"
+      },
+      "metadata": {
+        "json_description": "The alt text of navbar logo"
+      }
+    },
+    {
+      "segment_id": "item.label.docs",
+      "source_content": "docs",
+      "source_content_hash": "46b42b4229cd7a39c564e780bb665a8bde4fdf722007e8473f167fe53ed4b995",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label docs"
+      }
+    },
+    {
+      "segment_id": "item.label.github",
+      "source_content": "github",
+      "source_content_hash": "c0b0109d9439de57fe3cf03abeccbc52f4c98170c732d3b69af5e6395ace574e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "GitHub"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label github"
+      }
+    },
+    {
+      "segment_id": "item.label.npm",
+      "source_content": "npm",
+      "source_content_hash": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "npm"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label npm"
+      }
+    }
+  ],
+  "original_json_structure": {
+    "title": {
+      "message": "easy-dates",
+      "description": "The title in the navbar"
+    },
+    "logo.alt": {
+      "message": "My Site Logo",
+      "description": "The alt text of navbar logo"
+    },
+    "item.label.docs": {
+      "message": "docs",
+      "description": "Navbar item with label docs"
+    },
+    "item.label.github": {
+      "message": "github",
+      "description": "Navbar item with label github"
+    },
+    "item.label.npm": {
+      "message": "npm",
+      "description": "Navbar item with label npm"
+    }
+  },
+  "target_i18n_subpath": "docusaurus-theme-classic/navbar.json",
+  "last_updated_timestamp": "2025-06-10T10:04:35.910331+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "cd6c6344ecb213549b125a04f88f34aa37e2fd1767fc3d759120b8a6a219baed"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "下一个版本",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting started": {
+    "message": "入门指南",
+    "description": "The label for category Getting started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Functions": {
+    "message": "函数库",
+    "description": "The label for category Functions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "贡献指南",
+    "description": "The label for category Contributing in sidebar tutorialSidebar"
+  }
+}

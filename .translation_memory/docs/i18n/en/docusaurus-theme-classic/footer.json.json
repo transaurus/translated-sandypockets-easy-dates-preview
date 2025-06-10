@@ -1,0 +1,286 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "i18n/en/docusaurus-theme-classic/footer.json",
+  "source_file_content_hash": "a38fa913e89f705e20504542a1bdb110ce7b2491ce686e50fd708631dc207278",
+  "segments": [
+    {
+      "segment_id": "link.title.docs",
+      "source_content": "docs",
+      "source_content_hash": "46b42b4229cd7a39c564e780bb665a8bde4fdf722007e8473f167fe53ed4b995",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档"
+      },
+      "metadata": {
+        "json_description": "The title of the footer links column with title=docs in the footer"
+      }
+    },
+    {
+      "segment_id": "link.title.where to get easy-dates",
+      "source_content": "where to get easy-dates",
+      "source_content_hash": "21a7b9568d4bb1e2a0c3b80ddee46a535efca403fa50b9f84e913ae9c5ac40d5",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "获取 easy-dates"
+      },
+      "metadata": {
+        "json_description": "The title of the footer links column with title=where to get easy-dates in the footer"
+      }
+    },
+    {
+      "segment_id": "link.title.more",
+      "source_content": "more",
+      "source_content_hash": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多"
+      },
+      "metadata": {
+        "json_description": "The title of the footer links column with title=more in the footer"
+      }
+    },
+    {
+      "segment_id": "link.item.label.installation",
+      "source_content": "installation",
+      "source_content_hash": "561f0a3d84e3c5cf22f379912b7513b40c4e08edd60dc8b936a407db52b9579c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "安装指南"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=installation linking to /docs/introduction/"
+      }
+    },
+    {
+      "segment_id": "link.item.label.usage",
+      "source_content": "usage",
+      "source_content_hash": "0a4e4c29432ecb01b95f87d87ffaff9cb4f36ce4b89ff1a1a136ad1c7392ae07",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用说明"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=usage linking to /docs/introduction/usage"
+      }
+    },
+    {
+      "segment_id": "link.item.label.functions",
+      "source_content": "functions",
+      "source_content_hash": "ef7d009c7e812da10f8aa235954c0e128e820b20c053ea7e839a134022a91fdd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "函数列表"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=functions linking to /docs/functions/"
+      }
+    },
+    {
+      "segment_id": "link.item.label.playground",
+      "source_content": "playground",
+      "source_content_hash": "f3cc87f78b21d53dcccd34b6dd0c2e8679cb5e6ea3ad600e2689015ce100825a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "演练场"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=playground linking to /docs/introduction/playground"
+      }
+    },
+    {
+      "segment_id": "link.item.label.contributing",
+      "source_content": "contributing",
+      "source_content_hash": "b7a348d567c7fb4e7c08a53d59e35f4ae021fe909f680cc4e38ecdbd601a5850",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "贡献指南"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=contributing linking to /docs/contributing"
+      }
+    },
+    {
+      "segment_id": "link.item.label.npm",
+      "source_content": "npm",
+      "source_content_hash": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "npm"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=npm linking to https://www.npmjs.com/package/easy-dates"
+      }
+    },
+    {
+      "segment_id": "link.item.label.yarn",
+      "source_content": "yarn",
+      "source_content_hash": "ec4e598bd0f312a7c49bf83984b70176f311af142a47ca354f35424fb79f2bfd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "yarn"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=yarn linking to https://yarnpkg.com/package/easy-dates"
+      }
+    },
+    {
+      "segment_id": "link.item.label.unpkg",
+      "source_content": "unpkg",
+      "source_content_hash": "68961e958f44649805b055bf271814f4aea082e9b64a8818c2cf0858d1b88058",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "unpkg"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=unpkg linking to https://unpkg.com/easy-dates/dist/index.js"
+      }
+    },
+    {
+      "segment_id": "link.item.label.jsdeliver",
+      "source_content": "jsdeliver",
+      "source_content_hash": "4ac0eaa5c42717c9822617383d1d2d814c9a24a3d2afe46c0174d529c294d3fd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "jsdeliver"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=jsdeliver linking to https://cdn.jsdelivr.net/npm/easy-dates/dist/index.js"
+      }
+    },
+    {
+      "segment_id": "link.item.label.github",
+      "source_content": "github",
+      "source_content_hash": "c0b0109d9439de57fe3cf03abeccbc52f4c98170c732d3b69af5e6395ace574e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "github"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=github linking to https://github.com/sandypockets/easy-dates"
+      }
+    },
+    {
+      "segment_id": "link.item.label.blog",
+      "source_content": "blog",
+      "source_content_hash": "def53e95f1fc7a2aa7dbc4685f282f1e3e4ea3b364b07622e58edb15d239b252",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "博客"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=blog linking to https://sandypockets/dev"
+      }
+    },
+    {
+      "segment_id": "link.item.label.buy me a coffee",
+      "source_content": "buy me a coffee",
+      "source_content_hash": "03dc597609c275ea144c1e4c350809c464cf5d3f4489806c19ebc73e1bbfa5c1",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请我喝咖啡"
+      },
+      "metadata": {
+        "json_description": "The label of footer link with label=buy me a coffee linking to https://buymeacoffee.com/sandypockets"
+      }
+    },
+    {
+      "segment_id": "copyright",
+      "source_content": "copyright © 2025 easy-dates docs.",
+      "source_content_hash": "30a9908e0d790c235f5bb966ecbf7debc641fc8b0cc31cec71d0b0978ea268c0",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "版权 © 2025 easy-dates 文档。"
+      },
+      "metadata": {
+        "json_description": "The footer copyright"
+      }
+    }
+  ],
+  "original_json_structure": {
+    "link.title.docs": {
+      "message": "docs",
+      "description": "The title of the footer links column with title=docs in the footer"
+    },
+    "link.title.where to get easy-dates": {
+      "message": "where to get easy-dates",
+      "description": "The title of the footer links column with title=where to get easy-dates in the footer"
+    },
+    "link.title.more": {
+      "message": "more",
+      "description": "The title of the footer links column with title=more in the footer"
+    },
+    "link.item.label.installation": {
+      "message": "installation",
+      "description": "The label of footer link with label=installation linking to /docs/introduction/"
+    },
+    "link.item.label.usage": {
+      "message": "usage",
+      "description": "The label of footer link with label=usage linking to /docs/introduction/usage"
+    },
+    "link.item.label.functions": {
+      "message": "functions",
+      "description": "The label of footer link with label=functions linking to /docs/functions/"
+    },
+    "link.item.label.playground": {
+      "message": "playground",
+      "description": "The label of footer link with label=playground linking to /docs/introduction/playground"
+    },
+    "link.item.label.contributing": {
+      "message": "contributing",
+      "description": "The label of footer link with label=contributing linking to /docs/contributing"
+    },
+    "link.item.label.npm": {
+      "message": "npm",
+      "description": "The label of footer link with label=npm linking to https://www.npmjs.com/package/easy-dates"
+    },
+    "link.item.label.yarn": {
+      "message": "yarn",
+      "description": "The label of footer link with label=yarn linking to https://yarnpkg.com/package/easy-dates"
+    },
+    "link.item.label.unpkg": {
+      "message": "unpkg",
+      "description": "The label of footer link with label=unpkg linking to https://unpkg.com/easy-dates/dist/index.js"
+    },
+    "link.item.label.jsdeliver": {
+      "message": "jsdeliver",
+      "description": "The label of footer link with label=jsdeliver linking to https://cdn.jsdelivr.net/npm/easy-dates/dist/index.js"
+    },
+    "link.item.label.github": {
+      "message": "github",
+      "description": "The label of footer link with label=github linking to https://github.com/sandypockets/easy-dates"
+    },
+    "link.item.label.blog": {
+      "message": "blog",
+      "description": "The label of footer link with label=blog linking to https://sandypockets/dev"
+    },
+    "link.item.label.buy me a coffee": {
+      "message": "buy me a coffee",
+      "description": "The label of footer link with label=buy me a coffee linking to https://buymeacoffee.com/sandypockets"
+    },
+    "copyright": {
+      "message": "copyright © 2025 easy-dates docs.",
+      "description": "The footer copyright"
+    }
+  },
+  "target_i18n_subpath": "docusaurus-theme-classic/footer.json",
+  "last_updated_timestamp": "2025-06-10T10:04:35.912543+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a38fa913e89f705e20504542a1bdb110ce7b2491ce686e50fd708631dc207278"
+  }
+}

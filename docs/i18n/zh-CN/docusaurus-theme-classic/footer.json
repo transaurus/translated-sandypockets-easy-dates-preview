@@ -1,0 +1,66 @@
+{
+  "link.title.docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=docs in the footer"
+  },
+  "link.title.where to get easy-dates": {
+    "message": "获取 easy-dates",
+    "description": "The title of the footer links column with title=where to get easy-dates in the footer"
+  },
+  "link.title.more": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=more in the footer"
+  },
+  "link.item.label.installation": {
+    "message": "安装指南",
+    "description": "The label of footer link with label=installation linking to /docs/introduction/"
+  },
+  "link.item.label.usage": {
+    "message": "使用说明",
+    "description": "The label of footer link with label=usage linking to /docs/introduction/usage"
+  },
+  "link.item.label.functions": {
+    "message": "函数列表",
+    "description": "The label of footer link with label=functions linking to /docs/functions/"
+  },
+  "link.item.label.playground": {
+    "message": "演练场",
+    "description": "The label of footer link with label=playground linking to /docs/introduction/playground"
+  },
+  "link.item.label.contributing": {
+    "message": "贡献指南",
+    "description": "The label of footer link with label=contributing linking to /docs/contributing"
+  },
+  "link.item.label.npm": {
+    "message": "npm",
+    "description": "The label of footer link with label=npm linking to https://www.npmjs.com/package/easy-dates"
+  },
+  "link.item.label.yarn": {
+    "message": "yarn",
+    "description": "The label of footer link with label=yarn linking to https://yarnpkg.com/package/easy-dates"
+  },
+  "link.item.label.unpkg": {
+    "message": "unpkg",
+    "description": "The label of footer link with label=unpkg linking to https://unpkg.com/easy-dates/dist/index.js"
+  },
+  "link.item.label.jsdeliver": {
+    "message": "jsdeliver",
+    "description": "The label of footer link with label=jsdeliver linking to https://cdn.jsdelivr.net/npm/easy-dates/dist/index.js"
+  },
+  "link.item.label.github": {
+    "message": "github",
+    "description": "The label of footer link with label=github linking to https://github.com/sandypockets/easy-dates"
+  },
+  "link.item.label.blog": {
+    "message": "博客",
+    "description": "The label of footer link with label=blog linking to https://sandypockets/dev"
+  },
+  "link.item.label.buy me a coffee": {
+    "message": "请我喝咖啡",
+    "description": "The label of footer link with label=buy me a coffee linking to https://buymeacoffee.com/sandypockets"
+  },
+  "copyright": {
+    "message": "版权 © 2025 easy-dates 文档。",
+    "description": "The footer copyright"
+  }
+}
